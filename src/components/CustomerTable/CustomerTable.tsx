@@ -137,10 +137,12 @@ export const CustomerTable: React.FC<CustomerTableProps> = ({
       {/* Header */}
       <div className={styles.header}>
         <div className={styles.headerLeft}>
-          <h2 className={styles.title}>All Customers</h2>
-          <a href="#active-members" className={styles.activeLink}>
-            Active Members
-          </a>
+          <div>
+            <h2 className={styles.title}>All Customers</h2>
+            <a href="#active-members" className={styles.activeLink}>
+              Active Members
+            </a>
+          </div>
         </div>
         <div className={styles.headerRight}>
           <SearchInput

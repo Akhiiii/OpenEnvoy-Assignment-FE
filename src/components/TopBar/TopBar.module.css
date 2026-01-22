@@ -2,8 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--spacing-lg) var(--spacing-xl);
-  background-color: var(--color-bg-primary);
+  padding: var(--spacing-lg) var(--spacing-sm);
+  /* background-color: var(--color-bg-primary); */
+  /* position: sticky;
+  top: 0;
+  z-index: 50; */
 }
 
 .greeting {
@@ -14,8 +17,8 @@
 
 .greetingText {
   font-size: var(--font-size-2xl);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-text-primary);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-black);
   margin: 0; /* Reset h1 default margin */
 }
 

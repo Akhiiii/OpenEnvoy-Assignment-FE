@@ -2,11 +2,16 @@
   display: flex;
   flex-direction: column;
   width: 306px;
-  min-height: 100vh;
+  height: 100vh;
   background-color: var(--color-bg-primary);
   border-right: 1px solid var(--color-border-light);
   padding: var(--spacing-xl) var(--spacing-lg);
-  flex-shrink: 0; /* Prevent sidebar from shrinking */
+  flex-shrink: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .logo {
@@ -23,7 +28,7 @@
 }
 
 .logoText {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-semibold);
   color: var(--color-text-primary);
 }
@@ -61,8 +66,9 @@
   color: var(--color-text-secondary);
   font-family: var(--font-family-primary);
   font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-normal);
   text-align: left;
+  cursor: not-allowed;
 }
 
 .navItem:hover {
@@ -76,8 +82,10 @@
 }
 
 .navItem.active {
-  background-color: var(--color-primary-light);
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
 }
 
 .navIcon {
@@ -131,7 +139,7 @@
 
 .userRole {
   font-size: var(--font-size-xs);
-  color: var(--color-text-tertiary);
+  color: var(--color-gray-600);
 }
 
 /* Responsive adjustments - sidebar remains visible (Requirements 11.2) */

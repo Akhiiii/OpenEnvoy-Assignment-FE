@@ -1,7 +1,7 @@
 import React from 'react';
-import { StatsCard } from '../StatsCard';
 import type { StatsData } from '../../types';
 import styles from './StatsStrip.module.css';
+import { DesktopIcon, MemberIcon, TrendDownIcon, TrendUpIcon, UserGroupIcon } from '../../assets/icons';
 
 export interface StatsStripProps {
   stats: StatsData;
@@ -64,59 +64,92 @@ const ActiveIcon = (
   </svg>
 );
 
-const ChartIcon = (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="32"
-    height="32"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <line x1="18" y1="20" x2="18" y2="10" />
-    <line x1="12" y1="20" x2="12" y2="4" />
-    <line x1="6" y1="20" x2="6" y2="14" />
-  </svg>
-);
+const formatValue = (val: number): string => val.toLocaleString();
+
+const renderTrend = (trend?: number) => {
+  if (trend === undefined || trend === null) return null;
+  const isPositive = trend > 0;
+  const isNegative = trend < 0;
+  
+  return (
+    <span 
+      className={`${styles.trend}`}
+      data-testid="trend-indicator"
+    >
+      {isPositive &&  <TrendUpIcon/>}
+      {isNegative &&  <TrendDownIcon/>}
+      {/* {isNegative && <span className={styles.trendArrow} aria-label="Downward trend">↓</span>} */}
+      <span className={`${isPositive ? styles.trendUp : ''} ${isNegative ? styles.trendDown : ''}`}>{Math.abs(trend)}% </span><span className={styles.monthTxt}>this month</span>
+    </span>
+  );
+};
+
+const renderAvatars = (avatars?: string[]) => {
+  if (!avatars || avatars.length === 0) return null;
+  
+  return (
+    <div className={styles.avatars} data-testid="avatars-container">
+      {avatars.slice(0, 5).map((avatar, index) => (
+        <img
+          key={index}
+          src={avatar}
+          alt={`User avatar ${index + 1}`}
+          className={styles.avatar}
+          style={{ zIndex: avatars.length + index }}
+        />
+      ))}
+    </div>
+  );
+};
 
 export const StatsStrip: React.FC<StatsStripProps> = ({ stats, className }) => {
   const stripClasses = [styles.strip, className || ''].filter(Boolean).join(' ');
 
-  // Calculate a fourth metric (e.g., growth rate or new customers this month)
-  const newCustomersThisMonth = {
-    count: Math.round(stats.totalCustomers.count * 0.12), // ~12% are new
-    trend: stats.totalCustomers.trend > 0 ? stats.totalCustomers.trend + 2 : stats.totalCustomers.trend - 2,
-  };
-
   return (
     <div className={stripClasses} data-testid="stats-strip">
-      <StatsCard
-        title="Total Customers"
-        value={stats.totalCustomers.count}
-        trend={stats.totalCustomers.trend}
-        icon={UsersIcon}
-      />
-      <StatsCard
-        title="Members"
-        value={stats.members.count}
-        trend={stats.members.trend}
-        icon={MembersIcon}
-      />
-      <StatsCard
-        title="Active Now"
-        value={stats.activeNow.count}
-        icon={ActiveIcon}
-        avatars={stats.activeNow.avatars}
-      />
-      <StatsCard
-        title="New This Month"
-        value={newCustomersThisMonth.count}
-        trend={newCustomersThisMonth.trend}
-        icon={ChartIcon}
-      />
+      {/* Total Customers */}
+      <div className={styles.statItem}>
+        {/* <div className={styles.iconContainer}>{UsersIcon}</div> */}
+        <UserGroupIcon/>
+        <div className={styles.content}>
+          <span className={styles.title}>Total Customers</span>
+          <div className={styles.valueRow}>
+            <span className={styles.value}>{formatValue(stats.totalCustomers.count)}</span>
+           
+          </div>
+          <span> {renderTrend(stats.totalCustomers.trend)}</span>
+        </div>
+      </div>
+
+      <div className={styles.divider} />
+
+      {/* Members */}
+      <div className={styles.statItem}>
+        <MemberIcon/>
+        <div className={styles.content}>
+          <span className={styles.title}>Members</span>
+          <div className={styles.valueRow}>
+            <span className={styles.value}>{formatValue(stats.members.count)}</span>
+           
+          </div>
+           {renderTrend(stats.members.trend)}
+        </div>
+      </div>
+
+      <div className={styles.divider} />
+
+      {/* Active Now */}
+      <div className={styles.statItem}>
+      <DesktopIcon/>
+        <div className={styles.content}>
+          <span className={styles.title}>Active Now</span>
+          <div className={styles.valueRow}>
+            <span className={styles.value}>{formatValue(stats.activeNow.count)}</span>
+           
+          </div>
+           {renderAvatars(stats.activeNow.avatars)}
+        </div>
+      </div>
     </div>
   );
 };
