@@ -1,0 +1,30 @@
+.strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+  width: 100%;
+}
+
+.strip > * {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Responsive: allow cards to wrap on smaller screens */
+@media (max-width: 1200px) {
+  .strip {
+    gap: var(--spacing-md);
+  }
+}
+
+@media (max-width: 900px) {
+  .strip > * {
+    flex: 1 1 calc(50% - var(--spacing-md));
+  }
+}
+
+@media (max-width: 600px) {
+  .strip > * {
+    flex: 1 1 100%;
+  }
+}

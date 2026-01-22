@@ -1,5 +1,9 @@
 import type { Preview } from '@storybook/react-vite'
 
+// Import global styles for Storybook
+import '../src/styles/tokens.css';
+import '../src/styles/reset.css';
+
 const preview: Preview = {
   parameters: {
     controls: {
