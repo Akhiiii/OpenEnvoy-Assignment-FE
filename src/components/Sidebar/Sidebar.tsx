@@ -98,7 +98,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   };
 
   return (
-    <aside className={styles.sidebar} data-testid="sidebar">
+    <div className={styles.sidebar} data-testid="sidebar">
       <div className={styles.logo}>
         <div className={styles.logoIcon}>
           <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -146,7 +146,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <span className={styles.userRole}>{user.role}</span>
         </div>
       </div>
-    </aside>
+    </div>
   );
 };
 

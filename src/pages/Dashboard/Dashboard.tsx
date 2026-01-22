@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { Sidebar } from '../Sidebar';
-import type { NavItem, UserProfile } from '../Sidebar';
-import { TopBar } from '../TopBar';
-import { StatsStrip } from '../StatsStrip';
-import { CustomerTable } from '../CustomerTable';
+import { Sidebar } from '../../components/Sidebar';
+import type { NavItem, UserProfile } from '../../components/Sidebar';
+import { TopBar } from '../../components/TopBar';
+import { StatsStrip } from '../../components/StatsStrip';
+import { CustomerTable } from '../../components/CustomerTable';
 import { useCustomerData } from '../../hooks/useCustomerData';
 import styles from './Dashboard.module.css';
 
 /**
- * Dashboard Component
+ * Dashboard Page
  * 
  * INTERVIEW TALKING POINTS:
  * 

@@ -1,0 +1,4024 @@
+{
+  "customers": [
+    {
+      "id": "f13c3c46-bf44-4c05-9538-aca25a0b125d",
+      "name": "Addison White",
+      "company": "Tesla",
+      "phone": "(188) 261-6107",
+      "email": "addison.white@tesla.com",
+      "country": "Canada",
+      "status": "Active",
+      "createdAt": "2024-08-31"
+    },
+    {
+      "id": "02b3fdab-dd22-44e5-964b-c6f104d11d00",
+      "name": "Jane White",
+      "company": "Slack",
+      "phone": "(276) 812-3320",
+      "email": "jane.white@slack.com",
+      "country": "Australia",
+      "status": "Active",
+      "createdAt": "2025-09-03"
+    },
+    {
+      "id": "b61871d0-5f21-4eba-a328-9716bf7add20",
+      "name": "Noah Lee",
+      "company": "Salesforce",
+      "phone": "(632) 210-3254",
+      "email": "noah.lee@salesforce.com",
+      "country": "Ireland",
+      "status": "Inactive",
+      "createdAt": "2024-09-21"
+    },
+    {
+      "id": "cc3f55d8-0ebf-4119-a822-9857f8c17745",
+      "name": "Emma Lee",
+      "company": "Amazon",
+      "phone": "(590) 593-9882",
+      "email": "emma.lee@amazon.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2024-12-02"
+    },
+    {
+      "id": "9621244a-1000-4309-8864-8c87d114db28",
+      "name": "Riley Evans",
+      "company": "LinkedIn",
+      "phone": "(688) 185-8398",
+      "email": "riley.evans@linkedin.com",
+      "country": "Germany",
+      "status": "Inactive",
+      "createdAt": "2025-02-02"
+    },
+    {
+      "id": "12741759-7ca0-4da0-8620-eb34968d101c",
+      "name": "Leo White",
+      "company": "Amazon",
+      "phone": "(244) 111-1798",
+      "email": "leo.white@amazon.com",
+      "country": "Poland",
+      "status": "Active",
+      "createdAt": "2025-05-02"
+    },
+    {
+      "id": "d07d083f-bb83-4539-b026-d7cc26d4f5a6",
+      "name": "Hannah Thompson",
+      "company": "Airbnb",
+      "phone": "(143) 823-9921",
+      "email": "hannah.thompson@airbnb.com",
+      "country": "Switzerland",
+      "status": "Inactive",
+      "createdAt": "2025-11-04"
+    },
+    {
+      "id": "2a7e0037-aa91-4222-aeca-e18c64739168",
+      "name": "Ryan Wright",
+      "company": "PayPal",
+      "phone": "(794) 132-2045",
+      "email": "ryan.wright@paypal.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2024-07-10"
+    },
+    {
+      "id": "6e2ef770-daa2-4160-a8aa-cbbd1f63dfd6",
+      "name": "Abigail Thompson",
+      "company": "AMD",
+      "phone": "(515) 107-2924",
+      "email": "abigail.thompson@amd.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2025-09-03"
+    },
+    {
+      "id": "babf38f5-6d66-4111-8647-a0acb2244e1f",
+      "name": "Amelia Miller",
+      "company": "LG",
+      "phone": "(436) 705-7238",
+      "email": "amelia.miller@lg.com",
+      "country": "Australia",
+      "status": "Active",
+      "createdAt": "2024-03-25"
+    },
+    {
+      "id": "d92c3a5e-0d1f-41b5-ad52-0749208416fc",
+      "name": "Layla Ramirez",
+      "company": "Amazon",
+      "phone": "(472) 641-3114",
+      "email": "layla.ramirez@amazon.com",
+      "country": "Ireland",
+      "status": "Active",
+      "createdAt": "2025-12-14"
+    },
+    {
+      "id": "0aaab12a-abdb-490b-a7cd-65551ea3c63c",
+      "name": "Olivia Roberts",
+      "company": "Sony",
+      "phone": "(528) 168-2858",
+      "email": "olivia.roberts@sony.com",
+      "country": "Brazil",
+      "status": "Active",
+      "createdAt": "2024-08-02"
+    },
+    {
+      "id": "98bbabdc-7f9c-4d1d-bac5-cb2ad524b2ce",
+      "name": "Jane Moore",
+      "company": "Twitter",
+      "phone": "(119) 267-4301",
+      "email": "jane.moore@twitter.com",
+      "country": "Canada",
+      "status": "Active",
+      "createdAt": "2025-01-12"
+    },
+    {
+      "id": "6199e7d5-9c62-444f-be7d-310344bc6a09",
+      "name": "Amelia Campbell",
+      "company": "Shopify",
+      "phone": "(420) 272-2588",
+      "email": "amelia.campbell@shopify.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2024-11-14"
+    },
+    {
+      "id": "af1b2bae-337c-4812-924f-346b47d39bcc",
+      "name": "Harper Perez",
+      "company": "Salesforce",
+      "phone": "(353) 803-7977",
+      "email": "harper.perez@salesforce.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2024-02-26"
+    },
+    {
+      "id": "9454e8a7-f00a-44a0-a11a-43d134dfe98f",
+      "name": "Henry Moore",
+      "company": "eBay",
+      "phone": "(299) 429-4907",
+      "email": "henry.moore@ebay.com",
+      "country": "Denmark",
+      "status": "Inactive",
+      "createdAt": "2024-12-27"
+    },
+    {
+      "id": "6dc74dc5-92d6-4069-84e5-159b95f4cf4a",
+      "name": "Alexander Scott",
+      "company": "VMware",
+      "phone": "(239) 282-8328",
+      "email": "alexander.scott@vmware.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2024-12-10"
+    },
+    {
+      "id": "ed14735a-b428-4ef6-bbc9-27c143fd58c0",
+      "name": "Olivia Perez",
+      "company": "Netflix",
+      "phone": "(811) 549-1330",
+      "email": "olivia.perez@netflix.com",
+      "country": "Portugal",
+      "status": "Active",
+      "createdAt": "2025-06-29"
+    },
+    {
+      "id": "9ae8dfa5-1122-468b-a209-13af8ac51be4",
+      "name": "Isabella Mitchell",
+      "company": "Meta",
+      "phone": "(994) 411-3599",
+      "email": "isabella.mitchell@meta.com",
+      "country": "Singapore",
+      "status": "Inactive",
+      "createdAt": "2024-08-25"
+    },
+    {
+      "id": "4e083577-0af9-4975-a34f-01ef8bb9908b",
+      "name": "Layla Lewis",
+      "company": "Airbnb",
+      "phone": "(111) 304-9293",
+      "email": "layla.lewis@airbnb.com",
+      "country": "New Zealand",
+      "status": "Active",
+      "createdAt": "2024-05-10"
+    },
+    {
+      "id": "488649d1-e11b-4462-9ddf-e054b88ac212",
+      "name": "John Gonzalez",
+      "company": "Acer",
+      "phone": "(453) 911-9881",
+      "email": "john.gonzalez@acer.com",
+      "country": "Mexico",
+      "status": "Inactive",
+      "createdAt": "2025-01-09"
+    },
+    {
+      "id": "bb1002fe-2836-4fc5-b560-2808e402a8ec",
+      "name": "Lucas Adams",
+      "company": "Nvidia",
+      "phone": "(803) 517-5557",
+      "email": "lucas.adams@nvidia.com",
+      "country": "Ireland",
+      "status": "Active",
+      "createdAt": "2024-08-04"
+    },
+    {
+      "id": "b797072d-a87e-4794-8f4e-7cb1a54e8a38",
+      "name": "Zoey Williams",
+      "company": "Stripe",
+      "phone": "(705) 481-6259",
+      "email": "zoey.williams@stripe.com",
+      "country": "Belgium",
+      "status": "Active",
+      "createdAt": "2025-09-14"
+    },
+    {
+      "id": "28a55461-f5b5-4334-8445-f92a755636ca",
+      "name": "Benjamin Moore",
+      "company": "Microsoft",
+      "phone": "(275) 128-2045",
+      "email": "benjamin.moore@microsoft.com",
+      "country": "Ireland",
+      "status": "Active",
+      "createdAt": "2024-07-09"
+    },
+    {
+      "id": "75c47b71-b710-4eb9-aa4c-adf8a25461ec",
+      "name": "Hannah Brown",
+      "company": "Amazon",
+      "phone": "(457) 353-4166",
+      "email": "hannah.brown@amazon.com",
+      "country": "Italy",
+      "status": "Inactive",
+      "createdAt": "2025-01-17"
+    },
+    {
+      "id": "ad615372-5d4f-4360-983e-eb2147a6dc62",
+      "name": "Ethan Taylor",
+      "company": "Square",
+      "phone": "(435) 561-9483",
+      "email": "ethan.taylor@square.com",
+      "country": "Belgium",
+      "status": "Active",
+      "createdAt": "2025-05-03"
+    },
+    {
+      "id": "082c1343-1374-4508-b951-407f73dee340",
+      "name": "Henry Martinez",
+      "company": "Meta",
+      "phone": "(978) 467-2560",
+      "email": "henry.martinez@meta.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2025-08-30"
+    },
+    {
+      "id": "ed02a790-a800-4c9c-b9bc-4cb1b833376a",
+      "name": "Michael Nelson",
+      "company": "VMware",
+      "phone": "(604) 714-7676",
+      "email": "michael.nelson@vmware.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2026-01-19"
+    },
+    {
+      "id": "aed45384-c1d7-4a66-8c03-4bc01554a664",
+      "name": "James Jones",
+      "company": "Microsoft",
+      "phone": "(363) 616-5723",
+      "email": "james.jones@microsoft.com",
+      "country": "Austria",
+      "status": "Inactive",
+      "createdAt": "2025-01-12"
+    },
+    {
+      "id": "9bf65563-4293-4d72-a03d-521b1cfa93a7",
+      "name": "Samuel Clark",
+      "company": "Lenovo",
+      "phone": "(608) 608-6397",
+      "email": "samuel.clark@lenovo.com",
+      "country": "Brazil",
+      "status": "Active",
+      "createdAt": "2025-03-28"
+    },
+    {
+      "id": "3f5895ec-7c9e-4e05-bcc2-e559cd0ba70c",
+      "name": "Ethan Scott",
+      "company": "Twitter",
+      "phone": "(453) 767-7517",
+      "email": "ethan.scott@twitter.com",
+      "country": "Belgium",
+      "status": "Active",
+      "createdAt": "2024-12-31"
+    },
+    {
+      "id": "cd5ea53f-f6be-4c21-a25e-1f73aa34495a",
+      "name": "Ryan Martinez",
+      "company": "Cisco",
+      "phone": "(209) 564-6594",
+      "email": "ryan.martinez@cisco.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2025-03-09"
+    },
+    {
+      "id": "fd7e6f39-a6ae-4064-9434-aeb32707b079",
+      "name": "Addison Smith",
+      "company": "Spotify",
+      "phone": "(512) 799-9156",
+      "email": "addison.smith@spotify.com",
+      "country": "Austria",
+      "status": "Active",
+      "createdAt": "2025-07-02"
+    },
+    {
+      "id": "f6817135-ee92-4e5d-b722-edbe4b504012",
+      "name": "Sarah Brown",
+      "company": "Oracle",
+      "phone": "(773) 290-5708",
+      "email": "sarah.brown@oracle.com",
+      "country": "Austria",
+      "status": "Inactive",
+      "createdAt": "2024-10-18"
+    },
+    {
+      "id": "b57b38e6-f1ed-41c2-8043-9e81ea7ab3b2",
+      "name": "Layla Cooper",
+      "company": "Asus",
+      "phone": "(635) 860-3040",
+      "email": "layla.cooper@asus.com",
+      "country": "France",
+      "status": "Active",
+      "createdAt": "2025-09-12"
+    },
+    {
+      "id": "be5a1051-187a-411c-8b96-4ade79503305",
+      "name": "Sarah Lee",
+      "company": "Asus",
+      "phone": "(848) 603-5312",
+      "email": "sarah.lee@asus.com",
+      "country": "New Zealand",
+      "status": "Inactive",
+      "createdAt": "2025-03-20"
+    },
+    {
+      "id": "7bedf8ea-4844-4d94-b4c5-c1ea20c57e1e",
+      "name": "Abigail Gonzalez",
+      "company": "Dropbox",
+      "phone": "(142) 784-3448",
+      "email": "abigail.gonzalez@dropbox.com",
+      "country": "Portugal",
+      "status": "Active",
+      "createdAt": "2024-11-16"
+    },
+    {
+      "id": "45086b88-4bb5-4d3f-9bc6-487e0facff44",
+      "name": "Samuel Rivera",
+      "company": "Amazon",
+      "phone": "(375) 739-7774",
+      "email": "samuel.rivera@amazon.com",
+      "country": "Brazil",
+      "status": "Active",
+      "createdAt": "2025-07-06"
+    },
+    {
+      "id": "483a807e-5da4-4b83-b469-ff2ec52bd8fa",
+      "name": "Samuel Taylor",
+      "company": "AMD",
+      "phone": "(831) 123-8217",
+      "email": "samuel.taylor@amd.com",
+      "country": "Italy",
+      "status": "Active",
+      "createdAt": "2025-08-31"
+    },
+    {
+      "id": "e9f33874-f0a8-4cbc-b6aa-be1714d5368d",
+      "name": "Sebastian Davis",
+      "company": "Apple",
+      "phone": "(815) 847-6514",
+      "email": "sebastian.davis@apple.com",
+      "country": "Switzerland",
+      "status": "Inactive",
+      "createdAt": "2024-12-16"
+    },
+    {
+      "id": "a4b5a9ac-cc66-4157-8478-19c5fc2f8b97",
+      "name": "Charlotte Robinson",
+      "company": "Salesforce",
+      "phone": "(525) 576-8638",
+      "email": "charlotte.robinson@salesforce.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2024-08-20"
+    },
+    {
+      "id": "d450bd55-4a03-4f1f-9e2b-2dc50ad19ec1",
+      "name": "Zoey Martinez",
+      "company": "Adobe",
+      "phone": "(442) 941-6615",
+      "email": "zoey.martinez@adobe.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2024-04-10"
+    },
+    {
+      "id": "9d46b679-92c1-4cc6-8180-c2b38d8b1338",
+      "name": "Aiden Campbell",
+      "company": "Tesla",
+      "phone": "(156) 247-5186",
+      "email": "aiden.campbell@tesla.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2024-01-29"
+    },
+    {
+      "id": "cc21b264-514c-4b01-8ab4-b7cca29473d7",
+      "name": "Isabella Lee",
+      "company": "Tesla",
+      "phone": "(289) 769-6476",
+      "email": "isabella.lee@tesla.com",
+      "country": "New Zealand",
+      "status": "Inactive",
+      "createdAt": "2024-02-17"
+    },
+    {
+      "id": "bf0bd008-3149-4ff7-99a2-6be85c9d06b7",
+      "name": "Ella Rivera",
+      "company": "Zoom",
+      "phone": "(383) 575-7858",
+      "email": "ella.rivera@zoom.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2024-09-07"
+    },
+    {
+      "id": "a4160f73-57f3-4750-bb58-15467d8b0961",
+      "name": "Ethan Anderson",
+      "company": "Apple",
+      "phone": "(269) 678-6601",
+      "email": "ethan.anderson@apple.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2024-01-27"
+    },
+    {
+      "id": "0323f677-193d-4e53-931a-291cee52d25b",
+      "name": "Ella Johnson",
+      "company": "Uber",
+      "phone": "(360) 765-7981",
+      "email": "ella.johnson@uber.com",
+      "country": "India",
+      "status": "Active",
+      "createdAt": "2024-02-05"
+    },
+    {
+      "id": "5099b8d5-568d-466f-8039-0266f5ff9038",
+      "name": "Jack Rivera",
+      "company": "Samsung",
+      "phone": "(661) 912-4589",
+      "email": "jack.rivera@samsung.com",
+      "country": "Italy",
+      "status": "Inactive",
+      "createdAt": "2024-04-25"
+    },
+    {
+      "id": "dc22158c-3513-4385-8f9b-a418c5756896",
+      "name": "Lucas Gonzalez",
+      "company": "Zoom",
+      "phone": "(792) 562-1363",
+      "email": "lucas.gonzalez@zoom.com",
+      "country": "Denmark",
+      "status": "Active",
+      "createdAt": "2024-02-21"
+    },
+    {
+      "id": "c9ea08df-9ba1-4ea0-bbd7-4cf49e0c178d",
+      "name": "Oliver Hernandez",
+      "company": "Salesforce",
+      "phone": "(276) 846-5828",
+      "email": "oliver.hernandez@salesforce.com",
+      "country": "Germany",
+      "status": "Active",
+      "createdAt": "2024-12-12"
+    },
+    {
+      "id": "d0b3c823-c0eb-4cff-b509-99cf51f4bb1f",
+      "name": "Luna Ramirez",
+      "company": "Spotify",
+      "phone": "(186) 161-8403",
+      "email": "luna.ramirez@spotify.com",
+      "country": "South Korea",
+      "status": "Inactive",
+      "createdAt": "2024-10-10"
+    },
+    {
+      "id": "ccb2d6d0-6f58-4918-900b-d72614904390",
+      "name": "Lillian Harris",
+      "company": "Netflix",
+      "phone": "(879) 851-7246",
+      "email": "lillian.harris@netflix.com",
+      "country": "New Zealand",
+      "status": "Active",
+      "createdAt": "2025-07-29"
+    },
+    {
+      "id": "933c2f2a-173e-4419-b2e7-13c8fec31ddf",
+      "name": "Joseph Baker",
+      "company": "Airbnb",
+      "phone": "(858) 724-1094",
+      "email": "joseph.baker@airbnb.com",
+      "country": "Switzerland",
+      "status": "Inactive",
+      "createdAt": "2024-04-25"
+    },
+    {
+      "id": "e315724c-39bd-43ea-948e-77d83a9dfc84",
+      "name": "Asher Lee",
+      "company": "Acer",
+      "phone": "(113) 252-4017",
+      "email": "asher.lee@acer.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2024-10-15"
+    },
+    {
+      "id": "9300c804-1e2f-49ec-8c04-9acf57329e05",
+      "name": "Addison Anderson",
+      "company": "Cisco",
+      "phone": "(344) 869-9332",
+      "email": "addison.anderson@cisco.com",
+      "country": "Italy",
+      "status": "Active",
+      "createdAt": "2024-02-21"
+    },
+    {
+      "id": "ac6d8d8a-043c-40c7-8a6f-5143f95d269e",
+      "name": "Hannah Harris",
+      "company": "Amazon",
+      "phone": "(436) 726-1196",
+      "email": "hannah.harris@amazon.com",
+      "country": "Netherlands",
+      "status": "Inactive",
+      "createdAt": "2025-03-04"
+    },
+    {
+      "id": "f5dc7dad-dcf4-4597-b0c9-5c2cb2bee769",
+      "name": "Riley Carter",
+      "company": "Dropbox",
+      "phone": "(323) 837-4672",
+      "email": "riley.carter@dropbox.com",
+      "country": "Switzerland",
+      "status": "Inactive",
+      "createdAt": "2024-07-02"
+    },
+    {
+      "id": "5d2f1a3d-d334-4e69-a976-a0f438392e1b",
+      "name": "Zoey Harris",
+      "company": "Zoom",
+      "phone": "(149) 514-3235",
+      "email": "zoey.harris@zoom.com",
+      "country": "South Korea",
+      "status": "Inactive",
+      "createdAt": "2025-09-29"
+    },
+    {
+      "id": "fa984b8e-f5d0-4233-9052-a24c04dbb140",
+      "name": "Sophia Jones",
+      "company": "VMware",
+      "phone": "(264) 870-4120",
+      "email": "sophia.jones@vmware.com",
+      "country": "South Korea",
+      "status": "Active",
+      "createdAt": "2024-02-07"
+    },
+    {
+      "id": "268ea72f-f778-48b8-b4b5-6738e455837e",
+      "name": "Joseph Flores",
+      "company": "VMware",
+      "phone": "(242) 856-7520",
+      "email": "joseph.flores@vmware.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2024-07-25"
+    },
+    {
+      "id": "69900add-1b8e-42bf-a306-9213dd0fe72e",
+      "name": "Elijah Williams",
+      "company": "LinkedIn",
+      "phone": "(299) 604-4752",
+      "email": "elijah.williams@linkedin.com",
+      "country": "Germany",
+      "status": "Active",
+      "createdAt": "2024-08-05"
+    },
+    {
+      "id": "597d4aa3-dd38-4068-b0ca-ea8754dd64ed",
+      "name": "Jack Young",
+      "company": "Zoom",
+      "phone": "(519) 696-8976",
+      "email": "jack.young@zoom.com",
+      "country": "New Zealand",
+      "status": "Active",
+      "createdAt": "2024-01-29"
+    },
+    {
+      "id": "eabad138-b326-48a2-83e3-45ad3bb81020",
+      "name": "Charlotte Brown",
+      "company": "Nvidia",
+      "phone": "(438) 875-4862",
+      "email": "charlotte.brown@nvidia.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2025-11-23"
+    },
+    {
+      "id": "580bfd06-ff15-454f-8368-d7d10d7b919a",
+      "name": "Samuel Thompson",
+      "company": "Adobe",
+      "phone": "(546) 432-2815",
+      "email": "samuel.thompson@adobe.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2025-03-18"
+    },
+    {
+      "id": "9f1018af-725e-4a18-be08-ef978ce0082a",
+      "name": "Emma Davis",
+      "company": "LG",
+      "phone": "(986) 140-9546",
+      "email": "emma.davis@lg.com",
+      "country": "Brazil",
+      "status": "Active",
+      "createdAt": "2025-05-17"
+    },
+    {
+      "id": "0b2bb005-669f-4e26-9f2b-bae5524fd9f7",
+      "name": "Henry Cooper",
+      "company": "Tesla",
+      "phone": "(509) 336-6319",
+      "email": "henry.cooper@tesla.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2024-08-17"
+    },
+    {
+      "id": "05b0a781-1903-4b03-9dd6-8b19e83a1a5c",
+      "name": "Lillian Allen",
+      "company": "Spotify",
+      "phone": "(357) 718-1002",
+      "email": "lillian.allen@spotify.com",
+      "country": "South Korea",
+      "status": "Active",
+      "createdAt": "2024-06-14"
+    },
+    {
+      "id": "92b24b45-ff26-432f-a078-f78c71eeb413",
+      "name": "Abigail White",
+      "company": "Nvidia",
+      "phone": "(741) 599-9507",
+      "email": "abigail.white@nvidia.com",
+      "country": "Poland",
+      "status": "Inactive",
+      "createdAt": "2024-12-02"
+    },
+    {
+      "id": "39e22908-1fa4-4461-9b97-fab67b8b047c",
+      "name": "Sebastian White",
+      "company": "Uber",
+      "phone": "(660) 103-2322",
+      "email": "sebastian.white@uber.com",
+      "country": "Germany",
+      "status": "Active",
+      "createdAt": "2025-10-30"
+    },
+    {
+      "id": "853cc8ed-8011-4158-bf8c-259c9634c9a6",
+      "name": "Mason Jackson",
+      "company": "Twitter",
+      "phone": "(933) 911-8629",
+      "email": "mason.jackson@twitter.com",
+      "country": "Germany",
+      "status": "Active",
+      "createdAt": "2024-06-14"
+    },
+    {
+      "id": "189ebf16-d5d2-42d5-9ee8-3586f7665170",
+      "name": "Logan Harris",
+      "company": "Cisco",
+      "phone": "(926) 445-5791",
+      "email": "logan.harris@cisco.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2024-03-01"
+    },
+    {
+      "id": "afab747f-0536-43fa-af3e-c2b7209db8ac",
+      "name": "Sophia Lewis",
+      "company": "Dell",
+      "phone": "(913) 115-7500",
+      "email": "sophia.lewis@dell.com",
+      "country": "Italy",
+      "status": "Active",
+      "createdAt": "2024-04-04"
+    },
+    {
+      "id": "91a64db3-977e-4c65-864f-a03020da3a57",
+      "name": "Harper Scott",
+      "company": "VMware",
+      "phone": "(788) 296-2751",
+      "email": "harper.scott@vmware.com",
+      "country": "Belgium",
+      "status": "Inactive",
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "c76caaa0-d7a1-4deb-b03d-9dd7bea93e0b",
+      "name": "Samuel Green",
+      "company": "Samsung",
+      "phone": "(159) 496-4418",
+      "email": "samuel.green@samsung.com",
+      "country": "Australia",
+      "status": "Inactive",
+      "createdAt": "2024-07-27"
+    },
+    {
+      "id": "f0bef7fd-b76f-46e9-8ef4-e5a9309ee7d2",
+      "name": "Elijah Ramirez",
+      "company": "HP",
+      "phone": "(580) 242-1133",
+      "email": "elijah.ramirez@hp.com",
+      "country": "Australia",
+      "status": "Inactive",
+      "createdAt": "2025-03-15"
+    },
+    {
+      "id": "69e5022d-cad9-45d2-be47-d146b7950f78",
+      "name": "John Smith",
+      "company": "Dropbox",
+      "phone": "(487) 757-9248",
+      "email": "john.smith@dropbox.com",
+      "country": "Poland",
+      "status": "Inactive",
+      "createdAt": "2024-12-09"
+    },
+    {
+      "id": "d9fee306-bfac-46fa-85ca-700cf51bb1c3",
+      "name": "Henry Robinson",
+      "company": "Intel",
+      "phone": "(802) 456-9897",
+      "email": "henry.robinson@intel.com",
+      "country": "Austria",
+      "status": "Inactive",
+      "createdAt": "2024-03-19"
+    },
+    {
+      "id": "6da6002a-a965-4ba1-8d51-b91537491d1c",
+      "name": "Joseph Martin",
+      "company": "Intel",
+      "phone": "(229) 631-8102",
+      "email": "joseph.martin@intel.com",
+      "country": "Belgium",
+      "status": "Active",
+      "createdAt": "2024-06-11"
+    },
+    {
+      "id": "06278a6e-6066-4215-b4ba-946bad0c0a87",
+      "name": "Sophia Phillips",
+      "company": "Airbnb",
+      "phone": "(989) 466-1112",
+      "email": "sophia.phillips@airbnb.com",
+      "country": "Australia",
+      "status": "Active",
+      "createdAt": "2025-05-25"
+    },
+    {
+      "id": "74d99a62-9ad8-4f95-a28b-22fbd9289ab1",
+      "name": "Michael Ramirez",
+      "company": "VMware",
+      "phone": "(564) 165-6959",
+      "email": "michael.ramirez@vmware.com",
+      "country": "Brazil",
+      "status": "Inactive",
+      "createdAt": "2025-07-10"
+    },
+    {
+      "id": "66f1520e-b41d-465f-813c-6c3656c7b2e9",
+      "name": "Mia Wilson",
+      "company": "Qualcomm",
+      "phone": "(866) 904-4432",
+      "email": "mia.wilson@qualcomm.com",
+      "country": "Switzerland",
+      "status": "Active",
+      "createdAt": "2024-06-22"
+    },
+    {
+      "id": "c15b4fa4-3b7c-4aa0-8437-0cb7f98be442",
+      "name": "Liam King",
+      "company": "LG",
+      "phone": "(166) 891-1900",
+      "email": "liam.king@lg.com",
+      "country": "Netherlands",
+      "status": "Inactive",
+      "createdAt": "2024-03-07"
+    },
+    {
+      "id": "c927c52e-de69-4fb4-a6e6-a3969e3a3b03",
+      "name": "Charlotte Jones",
+      "company": "Oracle",
+      "phone": "(922) 910-5942",
+      "email": "charlotte.jones@oracle.com",
+      "country": "Brazil",
+      "status": "Active",
+      "createdAt": "2025-01-16"
+    },
+    {
+      "id": "c5b6110a-4246-4d1a-9158-989c0b28f80a",
+      "name": "Lily Walker",
+      "company": "Tesla",
+      "phone": "(608) 131-9442",
+      "email": "lily.walker@tesla.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2024-10-03"
+    },
+    {
+      "id": "b19cf1a9-82a5-47fb-86d1-5e59de92078f",
+      "name": "Ethan Ramirez",
+      "company": "LG",
+      "phone": "(665) 845-8270",
+      "email": "ethan.ramirez@lg.com",
+      "country": "New Zealand",
+      "status": "Inactive",
+      "createdAt": "2024-11-29"
+    },
+    {
+      "id": "a3d26b4c-b619-4b31-b285-5babdef5d833",
+      "name": "Riley Anderson",
+      "company": "Twitter",
+      "phone": "(463) 292-3015",
+      "email": "riley.anderson@twitter.com",
+      "country": "Switzerland",
+      "status": "Active",
+      "createdAt": "2024-08-25"
+    },
+    {
+      "id": "1c819ee0-862b-4995-a241-39d4648e998d",
+      "name": "Emma King",
+      "company": "Adobe",
+      "phone": "(650) 676-2002",
+      "email": "emma.king@adobe.com",
+      "country": "Belgium",
+      "status": "Inactive",
+      "createdAt": "2025-08-17"
+    },
+    {
+      "id": "d27547dc-865c-439e-928c-b4fc3384995a",
+      "name": "Isabella Hill",
+      "company": "Cisco",
+      "phone": "(190) 832-7692",
+      "email": "isabella.hill@cisco.com",
+      "country": "Germany",
+      "status": "Inactive",
+      "createdAt": "2025-07-15"
+    },
+    {
+      "id": "02e6ca40-d538-4ef7-9bf9-a0049fb41aa0",
+      "name": "Joseph Hall",
+      "company": "Acer",
+      "phone": "(101) 193-9189",
+      "email": "joseph.hall@acer.com",
+      "country": "South Korea",
+      "status": "Active",
+      "createdAt": "2025-09-14"
+    },
+    {
+      "id": "bc1d150a-612e-48a1-8114-d88f008074f7",
+      "name": "Noah Hall",
+      "company": "Zoom",
+      "phone": "(466) 644-5933",
+      "email": "noah.hall@zoom.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2024-12-26"
+    },
+    {
+      "id": "353bb973-d3b7-4258-99ae-c03059758c23",
+      "name": "Caleb Clark",
+      "company": "VMware",
+      "phone": "(767) 254-8957",
+      "email": "caleb.clark@vmware.com",
+      "country": "Germany",
+      "status": "Inactive",
+      "createdAt": "2025-07-08"
+    },
+    {
+      "id": "03227be3-bcd9-4e48-af2c-c508712df197",
+      "name": "Joseph Thomas",
+      "company": "Stripe",
+      "phone": "(728) 728-3127",
+      "email": "joseph.thomas@stripe.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2025-09-04"
+    },
+    {
+      "id": "a7790140-27b3-495f-9ba2-ff5a2837365c",
+      "name": "Layla Robinson",
+      "company": "Slack",
+      "phone": "(708) 585-2839",
+      "email": "layla.robinson@slack.com",
+      "country": "Belgium",
+      "status": "Active",
+      "createdAt": "2024-03-22"
+    },
+    {
+      "id": "561d39f9-0e76-499b-88a5-69d8a931e85f",
+      "name": "Nora Torres",
+      "company": "Slack",
+      "phone": "(559) 481-7478",
+      "email": "nora.torres@slack.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2026-01-13"
+    },
+    {
+      "id": "738c6216-73a2-474b-b984-d4411efa5f17",
+      "name": "Mason Robinson",
+      "company": "Lenovo",
+      "phone": "(715) 946-1005",
+      "email": "mason.robinson@lenovo.com",
+      "country": "Netherlands",
+      "status": "Active",
+      "createdAt": "2024-06-15"
+    },
+    {
+      "id": "cffe149b-e352-418e-b647-227b4d4e8522",
+      "name": "Nora Rodriguez",
+      "company": "Dropbox",
+      "phone": "(470) 505-6022",
+      "email": "nora.rodriguez@dropbox.com",
+      "country": "Netherlands",
+      "status": "Active",
+      "createdAt": "2024-07-21"
+    },
+    {
+      "id": "b658a812-c1e7-4931-9da2-acf468b7a2f8",
+      "name": "Layla Phillips",
+      "company": "Google",
+      "phone": "(169) 480-7744",
+      "email": "layla.phillips@google.com",
+      "country": "Sweden",
+      "status": "Active",
+      "createdAt": "2024-03-19"
+    },
+    {
+      "id": "a0bf9ab2-a5c6-4699-9d40-079317497d56",
+      "name": "Abigail Lopez",
+      "company": "eBay",
+      "phone": "(488) 920-5582",
+      "email": "abigail.lopez@ebay.com",
+      "country": "Norway",
+      "status": "Inactive",
+      "createdAt": "2026-01-06"
+    },
+    {
+      "id": "335765a7-a351-4fdc-89f1-03aca37e3543",
+      "name": "Liam Torres",
+      "company": "Square",
+      "phone": "(688) 690-4158",
+      "email": "liam.torres@square.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2025-01-22"
+    },
+    {
+      "id": "033b14ba-db2b-49f1-adb6-2ab53489e172",
+      "name": "Addison Johnson",
+      "company": "Netflix",
+      "phone": "(616) 793-4479",
+      "email": "addison.johnson@netflix.com",
+      "country": "Brazil",
+      "status": "Active",
+      "createdAt": "2024-06-24"
+    },
+    {
+      "id": "7d416f47-912b-4d13-852a-2d0ea9e5058e",
+      "name": "Elijah Nelson",
+      "company": "Cisco",
+      "phone": "(728) 396-9251",
+      "email": "elijah.nelson@cisco.com",
+      "country": "Norway",
+      "status": "Active",
+      "createdAt": "2025-05-19"
+    },
+    {
+      "id": "bc58d874-41ba-459e-9d04-9a4c10d98acd",
+      "name": "Addison Green",
+      "company": "Dell",
+      "phone": "(691) 737-5069",
+      "email": "addison.green@dell.com",
+      "country": "Norway",
+      "status": "Active",
+      "createdAt": "2025-07-24"
+    },
+    {
+      "id": "69631039-cec0-44d6-ae75-36a5d36436f9",
+      "name": "Mason Rodriguez",
+      "company": "Twitter",
+      "phone": "(623) 651-5056",
+      "email": "mason.rodriguez@twitter.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2025-08-10"
+    },
+    {
+      "id": "a8950285-9c91-4c3c-a404-72316878e853",
+      "name": "Sophia Clark",
+      "company": "Acer",
+      "phone": "(701) 741-2220",
+      "email": "sophia.clark@acer.com",
+      "country": "India",
+      "status": "Active",
+      "createdAt": "2024-08-05"
+    },
+    {
+      "id": "3758e556-540c-4449-91c1-904c651287f2",
+      "name": "Liam Lewis",
+      "company": "Shopify",
+      "phone": "(519) 248-8799",
+      "email": "liam.lewis@shopify.com",
+      "country": "UK",
+      "status": "Inactive",
+      "createdAt": "2024-01-24"
+    },
+    {
+      "id": "e7e7ba1a-c09a-4467-b8aa-ff8abf881990",
+      "name": "Abigail Adams",
+      "company": "Amazon",
+      "phone": "(338) 215-9839",
+      "email": "abigail.adams@amazon.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2024-05-11"
+    },
+    {
+      "id": "14271afe-e9ed-4e9c-9651-f67d7366069d",
+      "name": "Charlotte Evans",
+      "company": "Amazon",
+      "phone": "(339) 291-7533",
+      "email": "charlotte.evans@amazon.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2025-12-27"
+    },
+    {
+      "id": "bc6fa836-408d-4bea-93d4-e8faa2db1858",
+      "name": "Sebastian Anderson",
+      "company": "Intel",
+      "phone": "(215) 323-2351",
+      "email": "sebastian.anderson@intel.com",
+      "country": "France",
+      "status": "Inactive",
+      "createdAt": "2024-08-16"
+    },
+    {
+      "id": "04d1f2cb-5b71-4357-92bd-d3aa059a4d45",
+      "name": "Oliver Torres",
+      "company": "Apple",
+      "phone": "(619) 372-4416",
+      "email": "oliver.torres@apple.com",
+      "country": "Poland",
+      "status": "Active",
+      "createdAt": "2025-07-28"
+    },
+    {
+      "id": "82a30c7e-5c92-410b-b8b3-24b3752e7a52",
+      "name": "Benjamin Torres",
+      "company": "Slack",
+      "phone": "(493) 160-5684",
+      "email": "benjamin.torres@slack.com",
+      "country": "Italy",
+      "status": "Inactive",
+      "createdAt": "2024-11-05"
+    },
+    {
+      "id": "a31adbc9-016d-47bf-be4f-2ffbf3d89781",
+      "name": "Alexander Torres",
+      "company": "IBM",
+      "phone": "(673) 615-9659",
+      "email": "alexander.torres@ibm.com",
+      "country": "Brazil",
+      "status": "Active",
+      "createdAt": "2025-02-13"
+    },
+    {
+      "id": "40d719ea-8ea6-4b8e-8259-3b569e6a9e99",
+      "name": "William Martinez",
+      "company": "LinkedIn",
+      "phone": "(597) 326-2585",
+      "email": "william.martinez@linkedin.com",
+      "country": "Austria",
+      "status": "Active",
+      "createdAt": "2024-02-09"
+    },
+    {
+      "id": "5fcd19b3-3e89-4475-9a99-c408c334f9c1",
+      "name": "Zoey Johnson",
+      "company": "Spotify",
+      "phone": "(257) 402-5844",
+      "email": "zoey.johnson@spotify.com",
+      "country": "UK",
+      "status": "Inactive",
+      "createdAt": "2024-10-18"
+    },
+    {
+      "id": "79499776-03e1-4fd3-aed6-d98d7db2635d",
+      "name": "Emma Hall",
+      "company": "Slack",
+      "phone": "(298) 624-7480",
+      "email": "emma.hall@slack.com",
+      "country": "Italy",
+      "status": "Inactive",
+      "createdAt": "2024-12-31"
+    },
+    {
+      "id": "6fa47c6b-a844-446b-bbcf-df379c49f143",
+      "name": "Addison Jones",
+      "company": "Sony",
+      "phone": "(241) 908-5471",
+      "email": "addison.jones@sony.com",
+      "country": "Sweden",
+      "status": "Active",
+      "createdAt": "2025-04-24"
+    },
+    {
+      "id": "46e2a5d3-8a29-41f3-9767-9cb6110f0c89",
+      "name": "Benjamin Lewis",
+      "company": "HP",
+      "phone": "(599) 825-5561",
+      "email": "benjamin.lewis@hp.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2024-09-27"
+    },
+    {
+      "id": "db46cd2b-1736-478f-9fcd-ac4f492077bf",
+      "name": "Emma White",
+      "company": "Nvidia",
+      "phone": "(874) 259-1063",
+      "email": "emma.white@nvidia.com",
+      "country": "UK",
+      "status": "Active",
+      "createdAt": "2025-04-09"
+    },
+    {
+      "id": "fa1d12e0-0c7f-4a96-ab14-16b4f135c7f3",
+      "name": "Jack Johnson",
+      "company": "Uber",
+      "phone": "(711) 780-2833",
+      "email": "jack.johnson@uber.com",
+      "country": "Ireland",
+      "status": "Active",
+      "createdAt": "2025-07-23"
+    },
+    {
+      "id": "efd35fcf-d762-413e-893e-7e6b5728b6ab",
+      "name": "Layla Walker",
+      "company": "Salesforce",
+      "phone": "(924) 751-4022",
+      "email": "layla.walker@salesforce.com",
+      "country": "New Zealand",
+      "status": "Inactive",
+      "createdAt": "2025-04-05"
+    },
+    {
+      "id": "daf60acc-1cc2-4909-aa2a-85244c28a635",
+      "name": "Joseph Walker",
+      "company": "IBM",
+      "phone": "(365) 180-7262",
+      "email": "joseph.walker@ibm.com",
+      "country": "South Korea",
+      "status": "Active",
+      "createdAt": "2024-07-09"
+    },
+    {
+      "id": "6b061017-82a9-42d0-a2fe-7a5a30f99d15",
+      "name": "William King",
+      "company": "Shopify",
+      "phone": "(904) 409-4877",
+      "email": "william.king@shopify.com",
+      "country": "Belgium",
+      "status": "Active",
+      "createdAt": "2024-07-22"
+    },
+    {
+      "id": "e89ef009-85f6-47fe-9903-35494a0c7991",
+      "name": "Avery Adams",
+      "company": "Spotify",
+      "phone": "(827) 172-5173",
+      "email": "avery.adams@spotify.com",
+      "country": "South Korea",
+      "status": "Inactive",
+      "createdAt": "2024-02-13"
+    },
+    {
+      "id": "6c8d8860-0a88-47e0-b16a-441102583336",
+      "name": "Eleanor Allen",
+      "company": "LinkedIn",
+      "phone": "(404) 795-5879",
+      "email": "eleanor.allen@linkedin.com",
+      "country": "Netherlands",
+      "status": "Inactive",
+      "createdAt": "2024-04-28"
+    },
+    {
+      "id": "d2c23afa-775e-4821-ba30-d0350e19013f",
+      "name": "Benjamin King",
+      "company": "Stripe",
+      "phone": "(162) 180-5023",
+      "email": "benjamin.king@stripe.com",
+      "country": "Portugal",
+      "status": "Active",
+      "createdAt": "2025-02-06"
+    },
+    {
+      "id": "16bd50a9-22ad-4834-b1dd-7d0c1fe16136",
+      "name": "Avery Cooper",
+      "company": "Slack",
+      "phone": "(468) 694-2382",
+      "email": "avery.cooper@slack.com",
+      "country": "Mexico",
+      "status": "Inactive",
+      "createdAt": "2025-09-05"
+    },
+    {
+      "id": "e33f4e85-6cdd-4a9f-8c40-2ac25077a716",
+      "name": "Caleb Walker",
+      "company": "IBM",
+      "phone": "(760) 190-2262",
+      "email": "caleb.walker@ibm.com",
+      "country": "Canada",
+      "status": "Inactive",
+      "createdAt": "2025-10-23"
+    },
+    {
+      "id": "de660aff-5e54-40de-9934-b113e48b3a15",
+      "name": "Sebastian Flores",
+      "company": "Square",
+      "phone": "(903) 673-8584",
+      "email": "sebastian.flores@square.com",
+      "country": "Sweden",
+      "status": "Active",
+      "createdAt": "2024-04-26"
+    },
+    {
+      "id": "7368b59a-1a64-4f49-ad89-b24f3b93e723",
+      "name": "Sophia King",
+      "company": "Apple",
+      "phone": "(854) 798-1766",
+      "email": "sophia.king@apple.com",
+      "country": "Argentina",
+      "status": "Inactive",
+      "createdAt": "2025-03-04"
+    },
+    {
+      "id": "60a1d941-2dbd-4d96-864f-848dc243ef4e",
+      "name": "Liam Carter",
+      "company": "Microsoft",
+      "phone": "(892) 397-2642",
+      "email": "liam.carter@microsoft.com",
+      "country": "India",
+      "status": "Active",
+      "createdAt": "2025-11-03"
+    },
+    {
+      "id": "82c5173f-93b3-4306-9ba4-705c7dabb341",
+      "name": "Elijah Brown",
+      "company": "Adobe",
+      "phone": "(274) 342-5115",
+      "email": "elijah.brown@adobe.com",
+      "country": "UK",
+      "status": "Active",
+      "createdAt": "2024-09-23"
+    },
+    {
+      "id": "0ad3bb09-e01b-4ffb-a97e-e931e8b7552f",
+      "name": "Mason Anderson",
+      "company": "Salesforce",
+      "phone": "(644) 405-2017",
+      "email": "mason.anderson@salesforce.com",
+      "country": "UK",
+      "status": "Inactive",
+      "createdAt": "2024-05-08"
+    },
+    {
+      "id": "94b911a0-295e-492b-9401-05d966201f05",
+      "name": "Sophia Miller",
+      "company": "Tesla",
+      "phone": "(962) 255-1133",
+      "email": "sophia.miller@tesla.com",
+      "country": "Denmark",
+      "status": "Inactive",
+      "createdAt": "2024-09-27"
+    },
+    {
+      "id": "2c573b27-4c2a-487a-b4d8-563237889428",
+      "name": "Ryan Carter",
+      "company": "Zoom",
+      "phone": "(115) 976-1684",
+      "email": "ryan.carter@zoom.com",
+      "country": "Portugal",
+      "status": "Inactive",
+      "createdAt": "2025-06-05"
+    },
+    {
+      "id": "58de75e8-09d7-4be3-934b-1d4d7885d24c",
+      "name": "Lucas Garcia",
+      "company": "Twitter",
+      "phone": "(574) 848-5624",
+      "email": "lucas.garcia@twitter.com",
+      "country": "Netherlands",
+      "status": "Active",
+      "createdAt": "2024-03-27"
+    },
+    {
+      "id": "2e449681-fb64-4c5b-96de-b32a5225dd85",
+      "name": "Caleb Moore",
+      "company": "Airbnb",
+      "phone": "(212) 970-2938",
+      "email": "caleb.moore@airbnb.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2025-05-04"
+    },
+    {
+      "id": "47aadb4c-2f06-4502-bc05-bd5d651ebfd7",
+      "name": "Daniel Garcia",
+      "company": "Square",
+      "phone": "(334) 699-7836",
+      "email": "daniel.garcia@square.com",
+      "country": "Netherlands",
+      "status": "Active",
+      "createdAt": "2024-10-06"
+    },
+    {
+      "id": "f2ec9932-fef0-46a2-809c-7758dd854886",
+      "name": "Lily Garcia",
+      "company": "Meta",
+      "phone": "(141) 265-4007",
+      "email": "lily.garcia@meta.com",
+      "country": "China",
+      "status": "Inactive",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "9ff06f50-6d2a-4378-8e4f-ff9cc4f81049",
+      "name": "Mason Sanchez",
+      "company": "Tesla",
+      "phone": "(448) 187-1526",
+      "email": "mason.sanchez@tesla.com",
+      "country": "Brazil",
+      "status": "Active",
+      "createdAt": "2024-03-06"
+    },
+    {
+      "id": "c5bd2b66-4b54-4d21-a88a-a182620ec053",
+      "name": "Emma Nelson",
+      "company": "IBM",
+      "phone": "(549) 795-3658",
+      "email": "emma.nelson@ibm.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2024-01-25"
+    },
+    {
+      "id": "46bcf330-316e-443b-b2d2-622cb7e39f16",
+      "name": "Elijah Scott",
+      "company": "eBay",
+      "phone": "(844) 509-4862",
+      "email": "elijah.scott@ebay.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "d59ec372-4678-4468-bf58-d7c3ec4c9371",
+      "name": "Charlotte Martinez",
+      "company": "VMware",
+      "phone": "(339) 505-3353",
+      "email": "charlotte.martinez@vmware.com",
+      "country": "Brazil",
+      "status": "Active",
+      "createdAt": "2024-09-07"
+    },
+    {
+      "id": "0dcd5189-02cb-42f2-9f2b-4b2031fb5bac",
+      "name": "Chloe Cooper",
+      "company": "Nvidia",
+      "phone": "(999) 712-3848",
+      "email": "chloe.cooper@nvidia.com",
+      "country": "Mexico",
+      "status": "Inactive",
+      "createdAt": "2025-09-13"
+    },
+    {
+      "id": "f71f927f-0d7e-4562-81be-df932a66ee14",
+      "name": "Daniel Clark",
+      "company": "Stripe",
+      "phone": "(436) 792-7833",
+      "email": "daniel.clark@stripe.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2025-10-19"
+    },
+    {
+      "id": "43e35667-3992-487e-9283-c2f0be7eca4f",
+      "name": "Alexander Gonzalez",
+      "company": "Dell",
+      "phone": "(475) 305-2310",
+      "email": "alexander.gonzalez@dell.com",
+      "country": "Spain",
+      "status": "Inactive",
+      "createdAt": "2024-04-10"
+    },
+    {
+      "id": "666af5fa-fc75-41d5-b9b9-e71b6d507a3d",
+      "name": "Henry Nguyen",
+      "company": "Qualcomm",
+      "phone": "(160) 471-9083",
+      "email": "henry.nguyen@qualcomm.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2024-01-27"
+    },
+    {
+      "id": "3cc1bd8d-a102-4790-96b5-710ced7e30d6",
+      "name": "Elijah Harris",
+      "company": "Lenovo",
+      "phone": "(740) 399-7149",
+      "email": "elijah.harris@lenovo.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2025-06-14"
+    },
+    {
+      "id": "9b5e473e-cf5b-4ad9-8979-ff191f605844",
+      "name": "William Adams",
+      "company": "Spotify",
+      "phone": "(653) 791-4866",
+      "email": "william.adams@spotify.com",
+      "country": "France",
+      "status": "Inactive",
+      "createdAt": "2024-09-04"
+    },
+    {
+      "id": "3cb196b2-371d-4ad8-a20c-6a8ec0c1e19f",
+      "name": "Zoey Ramirez",
+      "company": "Apple",
+      "phone": "(202) 918-6156",
+      "email": "zoey.ramirez@apple.com",
+      "country": "Austria",
+      "status": "Active",
+      "createdAt": "2024-06-29"
+    },
+    {
+      "id": "eb327a6c-53a9-4844-9195-96b8260897a4",
+      "name": "Lucas Miller",
+      "company": "Qualcomm",
+      "phone": "(984) 193-4610",
+      "email": "lucas.miller@qualcomm.com",
+      "country": "Australia",
+      "status": "Active",
+      "createdAt": "2025-12-04"
+    },
+    {
+      "id": "f2d52dcc-6dbf-45c5-9665-c2a8ad25d58d",
+      "name": "Luna Adams",
+      "company": "Qualcomm",
+      "phone": "(984) 559-9026",
+      "email": "luna.adams@qualcomm.com",
+      "country": "France",
+      "status": "Active",
+      "createdAt": "2025-12-30"
+    },
+    {
+      "id": "971d4537-3796-4d36-8715-e9a28461f769",
+      "name": "Asher Brown",
+      "company": "Sony",
+      "phone": "(528) 487-1826",
+      "email": "asher.brown@sony.com",
+      "country": "South Korea",
+      "status": "Inactive",
+      "createdAt": "2025-04-26"
+    },
+    {
+      "id": "9fdeac9b-3f61-4bc4-8762-379f9985d1ff",
+      "name": "Luna Torres",
+      "company": "Meta",
+      "phone": "(421) 307-9881",
+      "email": "luna.torres@meta.com",
+      "country": "Australia",
+      "status": "Active",
+      "createdAt": "2025-01-17"
+    },
+    {
+      "id": "d89fb5bd-9a1f-4c93-b3a3-af10b60da2d8",
+      "name": "John Allen",
+      "company": "HP",
+      "phone": "(493) 539-2464",
+      "email": "john.allen@hp.com",
+      "country": "South Korea",
+      "status": "Inactive",
+      "createdAt": "2024-05-12"
+    },
+    {
+      "id": "b202de3b-182b-4aa5-a0ae-a53f911eea98",
+      "name": "Jane Nelson",
+      "company": "IBM",
+      "phone": "(169) 104-1365",
+      "email": "jane.nelson@ibm.com",
+      "country": "Portugal",
+      "status": "Active",
+      "createdAt": "2024-05-01"
+    },
+    {
+      "id": "8196d7ac-6668-44ee-95b9-780ad35e22e7",
+      "name": "David Baker",
+      "company": "Salesforce",
+      "phone": "(571) 543-5802",
+      "email": "david.baker@salesforce.com",
+      "country": "Australia",
+      "status": "Inactive",
+      "createdAt": "2024-09-29"
+    },
+    {
+      "id": "bdc0d8b9-8ac2-4ebf-8b4f-1766d87f972b",
+      "name": "Evelyn King",
+      "company": "Shopify",
+      "phone": "(321) 828-4985",
+      "email": "evelyn.king@shopify.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2024-08-29"
+    },
+    {
+      "id": "c531b41d-42f4-49f4-8c3c-ee5498fc2b9a",
+      "name": "Aiden Taylor",
+      "company": "Microsoft",
+      "phone": "(804) 125-1678",
+      "email": "aiden.taylor@microsoft.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2025-12-25"
+    },
+    {
+      "id": "d36bd8b3-bc53-41f1-ad4c-08abd3af7782",
+      "name": "Luna Martin",
+      "company": "Apple",
+      "phone": "(654) 916-8730",
+      "email": "luna.martin@apple.com",
+      "country": "Portugal",
+      "status": "Inactive",
+      "createdAt": "2024-07-11"
+    },
+    {
+      "id": "6803b059-34b6-4ff6-890a-4d3371777f48",
+      "name": "Evelyn King",
+      "company": "Dropbox",
+      "phone": "(588) 664-1652",
+      "email": "evelyn.king@dropbox.com",
+      "country": "Denmark",
+      "status": "Active",
+      "createdAt": "2024-07-07"
+    },
+    {
+      "id": "8c62876b-4d84-4220-b239-ae9a1ed1ef0b",
+      "name": "Samuel Flores",
+      "company": "eBay",
+      "phone": "(671) 222-9356",
+      "email": "samuel.flores@ebay.com",
+      "country": "Poland",
+      "status": "Active",
+      "createdAt": "2025-08-04"
+    },
+    {
+      "id": "eefef1fc-7cf4-4b04-add0-2a6a3374ee68",
+      "name": "Oliver Allen",
+      "company": "AMD",
+      "phone": "(458) 623-9572",
+      "email": "oliver.allen@amd.com",
+      "country": "Brazil",
+      "status": "Active",
+      "createdAt": "2025-05-25"
+    },
+    {
+      "id": "e9d9c8e4-f6d6-4d8b-94a2-cc0bbdb6ab2b",
+      "name": "Harper Roberts",
+      "company": "Acer",
+      "phone": "(833) 668-2369",
+      "email": "harper.roberts@acer.com",
+      "country": "India",
+      "status": "Active",
+      "createdAt": "2025-10-22"
+    },
+    {
+      "id": "2c1dd19b-99e5-463c-9532-a5ef2204fb68",
+      "name": "Abigail Robinson",
+      "company": "Dropbox",
+      "phone": "(264) 509-7931",
+      "email": "abigail.robinson@dropbox.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2025-12-19"
+    },
+    {
+      "id": "19c88f28-b913-42a1-9c2c-9f16469f47aa",
+      "name": "Ethan Smith",
+      "company": "IBM",
+      "phone": "(707) 788-7650",
+      "email": "ethan.smith@ibm.com",
+      "country": "Netherlands",
+      "status": "Active",
+      "createdAt": "2024-10-31"
+    },
+    {
+      "id": "c3c46d14-a049-439a-8e6a-36160ec03984",
+      "name": "Aiden Hernandez",
+      "company": "Google",
+      "phone": "(427) 953-5336",
+      "email": "aiden.hernandez@google.com",
+      "country": "Singapore",
+      "status": "Inactive",
+      "createdAt": "2024-05-07"
+    },
+    {
+      "id": "1533c5da-d3a5-45b4-848e-45bfcf8e592b",
+      "name": "Riley Evans",
+      "company": "eBay",
+      "phone": "(746) 555-7959",
+      "email": "riley.evans@ebay.com",
+      "country": "Canada",
+      "status": "Active",
+      "createdAt": "2024-08-22"
+    },
+    {
+      "id": "1f34f695-8bfb-4849-9905-e9e342f5fe92",
+      "name": "Liam Wilson",
+      "company": "Stripe",
+      "phone": "(523) 219-5922",
+      "email": "liam.wilson@stripe.com",
+      "country": "Portugal",
+      "status": "Active",
+      "createdAt": "2025-10-31"
+    },
+    {
+      "id": "46255db5-31da-4dcb-af9d-c540cfead911",
+      "name": "Matthew Carter",
+      "company": "Uber",
+      "phone": "(194) 536-1525",
+      "email": "matthew.carter@uber.com",
+      "country": "Sweden",
+      "status": "Inactive",
+      "createdAt": "2025-10-02"
+    },
+    {
+      "id": "46a53e00-6d5a-4435-ad99-16c83784eb1e",
+      "name": "Avery Phillips",
+      "company": "Adobe",
+      "phone": "(359) 365-4377",
+      "email": "avery.phillips@adobe.com",
+      "country": "Ireland",
+      "status": "Active",
+      "createdAt": "2025-05-10"
+    },
+    {
+      "id": "0e1c05d8-dda2-4f5c-89eb-d1fdb3cd58d5",
+      "name": "Emily Cooper",
+      "company": "Google",
+      "phone": "(681) 265-7728",
+      "email": "emily.cooper@google.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2025-06-08"
+    },
+    {
+      "id": "c92b8f2a-a3cb-4d84-9c06-d2c19516b525",
+      "name": "Luna Nelson",
+      "company": "Tesla",
+      "phone": "(588) 990-3276",
+      "email": "luna.nelson@tesla.com",
+      "country": "Germany",
+      "status": "Inactive",
+      "createdAt": "2025-10-29"
+    },
+    {
+      "id": "3476f771-bad7-4dde-bdd1-623ad36864c0",
+      "name": "Ethan Wilson",
+      "company": "LinkedIn",
+      "phone": "(658) 828-2783",
+      "email": "ethan.wilson@linkedin.com",
+      "country": "India",
+      "status": "Active",
+      "createdAt": "2025-04-29"
+    },
+    {
+      "id": "c2be6854-d52f-449d-a6b3-0abfc608a7d6",
+      "name": "Olivia Moore",
+      "company": "Meta",
+      "phone": "(310) 701-7839",
+      "email": "olivia.moore@meta.com",
+      "country": "Brazil",
+      "status": "Inactive",
+      "createdAt": "2025-01-24"
+    },
+    {
+      "id": "d5bfc8f7-feee-4df9-a410-9c68b1e88a05",
+      "name": "Emma Martinez",
+      "company": "Tesla",
+      "phone": "(545) 542-3057",
+      "email": "emma.martinez@tesla.com",
+      "country": "Netherlands",
+      "status": "Active",
+      "createdAt": "2025-04-05"
+    },
+    {
+      "id": "7a3dcb89-420e-43c9-b4ba-345ff6b99924",
+      "name": "Oliver Robinson",
+      "company": "Slack",
+      "phone": "(447) 656-1610",
+      "email": "oliver.robinson@slack.com",
+      "country": "Denmark",
+      "status": "Active",
+      "createdAt": "2025-12-13"
+    },
+    {
+      "id": "64baf821-aeda-4f8d-85ae-be0005e69648",
+      "name": "Luna Lopez",
+      "company": "Sony",
+      "phone": "(319) 597-1108",
+      "email": "luna.lopez@sony.com",
+      "country": "South Korea",
+      "status": "Active",
+      "createdAt": "2025-06-24"
+    },
+    {
+      "id": "43a62bf4-4f66-4066-b375-aab37bf38efb",
+      "name": "Hannah Johnson",
+      "company": "Square",
+      "phone": "(507) 754-9563",
+      "email": "hannah.johnson@square.com",
+      "country": "New Zealand",
+      "status": "Inactive",
+      "createdAt": "2025-02-15"
+    },
+    {
+      "id": "851cdae3-b847-4c3d-acd0-67635e55199f",
+      "name": "Addison Clark",
+      "company": "Google",
+      "phone": "(159) 721-2190",
+      "email": "addison.clark@google.com",
+      "country": "Denmark",
+      "status": "Inactive",
+      "createdAt": "2024-10-14"
+    },
+    {
+      "id": "69bf6388-5a71-4cb1-ba8c-e8c7d9268364",
+      "name": "Oliver Martinez",
+      "company": "Shopify",
+      "phone": "(609) 426-8501",
+      "email": "oliver.martinez@shopify.com",
+      "country": "Ireland",
+      "status": "Active",
+      "createdAt": "2024-12-06"
+    },
+    {
+      "id": "d6785bd2-1dc6-420c-b6fe-a3be9fd9f2f6",
+      "name": "William Sanchez",
+      "company": "Amazon",
+      "phone": "(970) 280-8858",
+      "email": "william.sanchez@amazon.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2025-12-11"
+    },
+    {
+      "id": "1e560963-608d-4a91-9e5b-b7a5428a164f",
+      "name": "Isabella Allen",
+      "company": "Lenovo",
+      "phone": "(616) 361-8802",
+      "email": "isabella.allen@lenovo.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2025-01-17"
+    },
+    {
+      "id": "a803d783-091a-4510-baf8-3a975dd7b250",
+      "name": "Charlotte Evans",
+      "company": "Qualcomm",
+      "phone": "(825) 151-8532",
+      "email": "charlotte.evans@qualcomm.com",
+      "country": "Belgium",
+      "status": "Inactive",
+      "createdAt": "2024-03-18"
+    },
+    {
+      "id": "944fa85b-d91c-4b57-a785-16302bd07b6f",
+      "name": "Benjamin Flores",
+      "company": "VMware",
+      "phone": "(585) 620-5921",
+      "email": "benjamin.flores@vmware.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2024-07-31"
+    },
+    {
+      "id": "5213f40b-3d13-4fe6-b69e-0a69b8b6272d",
+      "name": "Emma Johnson",
+      "company": "Twitter",
+      "phone": "(885) 678-2072",
+      "email": "emma.johnson@twitter.com",
+      "country": "USA",
+      "status": "Inactive",
+      "createdAt": "2024-05-26"
+    },
+    {
+      "id": "782702c7-4857-437a-b784-7efc781be3a2",
+      "name": "Amelia Lewis",
+      "company": "Intel",
+      "phone": "(192) 794-3079",
+      "email": "amelia.lewis@intel.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2025-10-17"
+    },
+    {
+      "id": "f03f2e40-b52a-445c-85ca-6d45a42a5875",
+      "name": "Emily Hernandez",
+      "company": "Oracle",
+      "phone": "(413) 821-8944",
+      "email": "emily.hernandez@oracle.com",
+      "country": "Portugal",
+      "status": "Active",
+      "createdAt": "2024-10-16"
+    },
+    {
+      "id": "28c8bd40-bc71-4c86-942a-341c45876c5c",
+      "name": "Caleb Jackson",
+      "company": "PayPal",
+      "phone": "(513) 908-9170",
+      "email": "caleb.jackson@paypal.com",
+      "country": "UK",
+      "status": "Inactive",
+      "createdAt": "2024-07-07"
+    },
+    {
+      "id": "0e7a524e-6d68-4742-8b04-41a86d73cc15",
+      "name": "Ryan King",
+      "company": "Samsung",
+      "phone": "(345) 482-6033",
+      "email": "ryan.king@samsung.com",
+      "country": "Denmark",
+      "status": "Active",
+      "createdAt": "2025-09-17"
+    },
+    {
+      "id": "726ab67b-460c-4379-ae7d-a5f793be4d68",
+      "name": "Owen Flores",
+      "company": "Meta",
+      "phone": "(467) 412-1110",
+      "email": "owen.flores@meta.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2026-01-22"
+    },
+    {
+      "id": "f9504fdc-5686-416a-b65b-48c16b705d02",
+      "name": "Emma Wilson",
+      "company": "Qualcomm",
+      "phone": "(610) 940-7284",
+      "email": "emma.wilson@qualcomm.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2025-03-04"
+    },
+    {
+      "id": "e27c33bf-2cc1-4cd2-adb9-408be2b1d7a8",
+      "name": "Sarah Smith",
+      "company": "Zoom",
+      "phone": "(107) 883-1886",
+      "email": "sarah.smith@zoom.com",
+      "country": "Denmark",
+      "status": "Active",
+      "createdAt": "2025-05-02"
+    },
+    {
+      "id": "00d72830-7f6f-41c9-b731-687b5bb8e1a4",
+      "name": "Avery Jackson",
+      "company": "Slack",
+      "phone": "(166) 117-9252",
+      "email": "avery.jackson@slack.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2024-05-12"
+    },
+    {
+      "id": "9609466b-3fae-48b3-bab4-bab8ac56c38d",
+      "name": "Benjamin Martinez",
+      "company": "Shopify",
+      "phone": "(731) 787-7401",
+      "email": "benjamin.martinez@shopify.com",
+      "country": "France",
+      "status": "Active",
+      "createdAt": "2025-03-06"
+    },
+    {
+      "id": "380935c5-9c9a-4777-b9a9-b0577c4d781a",
+      "name": "William King",
+      "company": "Spotify",
+      "phone": "(961) 492-5536",
+      "email": "william.king@spotify.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2024-06-25"
+    },
+    {
+      "id": "4fde01da-eec4-47fd-a6ca-c8a91e26992b",
+      "name": "Noah Williams",
+      "company": "HP",
+      "phone": "(320) 228-9741",
+      "email": "noah.williams@hp.com",
+      "country": "Switzerland",
+      "status": "Active",
+      "createdAt": "2025-10-14"
+    },
+    {
+      "id": "c6b27766-810c-4d0c-b239-f78ffd8e6a39",
+      "name": "Logan Lopez",
+      "company": "Amazon",
+      "phone": "(974) 265-6043",
+      "email": "logan.lopez@amazon.com",
+      "country": "Switzerland",
+      "status": "Active",
+      "createdAt": "2025-10-22"
+    },
+    {
+      "id": "da910e66-e7eb-447f-a714-99a966c4eefe",
+      "name": "Addison Mitchell",
+      "company": "Apple",
+      "phone": "(349) 204-2796",
+      "email": "addison.mitchell@apple.com",
+      "country": "Netherlands",
+      "status": "Inactive",
+      "createdAt": "2024-12-27"
+    },
+    {
+      "id": "fc95163f-fe11-4d53-8368-f62425fb9a55",
+      "name": "Avery Martinez",
+      "company": "Lenovo",
+      "phone": "(733) 315-2124",
+      "email": "avery.martinez@lenovo.com",
+      "country": "Switzerland",
+      "status": "Active",
+      "createdAt": "2025-03-24"
+    },
+    {
+      "id": "7239ea8c-e120-4eb0-bfa6-551f50b176de",
+      "name": "Sophia Clark",
+      "company": "Lenovo",
+      "phone": "(632) 680-6497",
+      "email": "sophia.clark@lenovo.com",
+      "country": "Poland",
+      "status": "Active",
+      "createdAt": "2024-11-19"
+    },
+    {
+      "id": "ea8a1de3-33b5-4b72-80c2-8947c8ad3fd4",
+      "name": "Olivia Lewis",
+      "company": "Microsoft",
+      "phone": "(912) 552-4627",
+      "email": "olivia.lewis@microsoft.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2025-12-15"
+    },
+    {
+      "id": "1c026e41-9bad-422a-a65d-d2e6ece0bcad",
+      "name": "Joseph Walker",
+      "company": "Airbnb",
+      "phone": "(433) 505-6600",
+      "email": "joseph.walker@airbnb.com",
+      "country": "New Zealand",
+      "status": "Inactive",
+      "createdAt": "2025-12-17"
+    },
+    {
+      "id": "9b0c2d8e-ce51-430b-9b32-a3137644220d",
+      "name": "Samuel Nguyen",
+      "company": "LinkedIn",
+      "phone": "(781) 919-9263",
+      "email": "samuel.nguyen@linkedin.com",
+      "country": "Netherlands",
+      "status": "Active",
+      "createdAt": "2024-07-27"
+    },
+    {
+      "id": "ab203f73-8620-4db3-a7eb-97fc5136783d",
+      "name": "John Clark",
+      "company": "Asus",
+      "phone": "(881) 172-7782",
+      "email": "john.clark@asus.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2024-03-01"
+    },
+    {
+      "id": "78bb9f08-1310-4ad8-826e-f9411512cd87",
+      "name": "David Young",
+      "company": "Cisco",
+      "phone": "(122) 546-3436",
+      "email": "david.young@cisco.com",
+      "country": "Switzerland",
+      "status": "Inactive",
+      "createdAt": "2025-11-03"
+    },
+    {
+      "id": "903abdf4-0de2-44df-a85c-45c086bcc57a",
+      "name": "Alexander Sanchez",
+      "company": "PayPal",
+      "phone": "(159) 820-2179",
+      "email": "alexander.sanchez@paypal.com",
+      "country": "Norway",
+      "status": "Inactive",
+      "createdAt": "2024-07-13"
+    },
+    {
+      "id": "50b1b2e9-ace5-4437-9aaa-baec8029784f",
+      "name": "Alexander Hill",
+      "company": "HP",
+      "phone": "(641) 815-8227",
+      "email": "alexander.hill@hp.com",
+      "country": "Denmark",
+      "status": "Active",
+      "createdAt": "2025-06-18"
+    },
+    {
+      "id": "4d07c159-b876-4aa8-8245-e39f15517423",
+      "name": "Lillian Perez",
+      "company": "Netflix",
+      "phone": "(961) 940-5839",
+      "email": "lillian.perez@netflix.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2024-01-31"
+    },
+    {
+      "id": "ebf8f8e5-3854-4fb2-83ef-e9e179269117",
+      "name": "Sarah Lopez",
+      "company": "Amazon",
+      "phone": "(943) 672-7883",
+      "email": "sarah.lopez@amazon.com",
+      "country": "Sweden",
+      "status": "Inactive",
+      "createdAt": "2025-05-24"
+    },
+    {
+      "id": "59053192-7f28-4f0d-9793-aaa9a6671986",
+      "name": "Charlotte Clark",
+      "company": "Square",
+      "phone": "(917) 400-1270",
+      "email": "charlotte.clark@square.com",
+      "country": "France",
+      "status": "Inactive",
+      "createdAt": "2024-06-22"
+    },
+    {
+      "id": "18cdf7e6-65aa-4050-b13e-cbe4bcad5bbf",
+      "name": "Liam Roberts",
+      "company": "Qualcomm",
+      "phone": "(238) 321-6345",
+      "email": "liam.roberts@qualcomm.com",
+      "country": "Switzerland",
+      "status": "Inactive",
+      "createdAt": "2024-12-19"
+    },
+    {
+      "id": "d383f044-22cc-4124-9853-9dbcfa1c36ee",
+      "name": "Abigail Thomas",
+      "company": "eBay",
+      "phone": "(454) 289-6656",
+      "email": "abigail.thomas@ebay.com",
+      "country": "Ireland",
+      "status": "Active",
+      "createdAt": "2026-01-22"
+    },
+    {
+      "id": "612b33cc-98ac-4478-a3e4-068573a70363",
+      "name": "Harper Green",
+      "company": "Uber",
+      "phone": "(722) 880-1796",
+      "email": "harper.green@uber.com",
+      "country": "Mexico",
+      "status": "Inactive",
+      "createdAt": "2025-08-11"
+    },
+    {
+      "id": "7e6a089f-ab74-4fa8-837d-9f021b84463a",
+      "name": "Aiden Hernandez",
+      "company": "Uber",
+      "phone": "(965) 115-7036",
+      "email": "aiden.hernandez@uber.com",
+      "country": "France",
+      "status": "Active",
+      "createdAt": "2024-09-29"
+    },
+    {
+      "id": "b06b9855-76d0-4a53-bbb9-b11d2bb9dfdc",
+      "name": "Emma Wright",
+      "company": "HP",
+      "phone": "(716) 609-3356",
+      "email": "emma.wright@hp.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2025-01-17"
+    },
+    {
+      "id": "76ecbfde-614f-405a-b8ce-fa7690cdb583",
+      "name": "Abigail Smith",
+      "company": "Apple",
+      "phone": "(593) 532-1740",
+      "email": "abigail.smith@apple.com",
+      "country": "Italy",
+      "status": "Active",
+      "createdAt": "2025-06-27"
+    },
+    {
+      "id": "08e2a57c-a2d8-43e5-9a68-cc924f720871",
+      "name": "Aiden Carter",
+      "company": "Samsung",
+      "phone": "(814) 283-9822",
+      "email": "aiden.carter@samsung.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2024-03-16"
+    },
+    {
+      "id": "a94ee8c2-a2a6-40fd-a92e-1569e137ef0b",
+      "name": "Owen Rivera",
+      "company": "Square",
+      "phone": "(727) 115-6230",
+      "email": "owen.rivera@square.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2024-10-25"
+    },
+    {
+      "id": "1bd435c4-8dde-4875-95a3-af774ebc61aa",
+      "name": "Charlotte Carter",
+      "company": "Meta",
+      "phone": "(959) 844-6743",
+      "email": "charlotte.carter@meta.com",
+      "country": "New Zealand",
+      "status": "Active",
+      "createdAt": "2025-09-13"
+    },
+    {
+      "id": "61761b4b-4bfb-4b1b-b81c-ee6b214cd7b5",
+      "name": "Logan Wilson",
+      "company": "Sony",
+      "phone": "(315) 745-8593",
+      "email": "logan.wilson@sony.com",
+      "country": "Norway",
+      "status": "Active",
+      "createdAt": "2025-08-10"
+    },
+    {
+      "id": "9fb57ae2-a27d-4a06-b182-7cc7358b6753",
+      "name": "Elijah Clark",
+      "company": "Adobe",
+      "phone": "(415) 880-6042",
+      "email": "elijah.clark@adobe.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2025-10-20"
+    },
+    {
+      "id": "876a7bd9-9266-4b3f-86e2-1139aa685bcd",
+      "name": "Sophia Robinson",
+      "company": "Acer",
+      "phone": "(247) 501-9877",
+      "email": "sophia.robinson@acer.com",
+      "country": "Spain",
+      "status": "Inactive",
+      "createdAt": "2025-07-24"
+    },
+    {
+      "id": "4ed21f61-d900-4fc4-944d-d5210629f22e",
+      "name": "Owen Lee",
+      "company": "Microsoft",
+      "phone": "(636) 254-3947",
+      "email": "owen.lee@microsoft.com",
+      "country": "Poland",
+      "status": "Active",
+      "createdAt": "2024-06-29"
+    },
+    {
+      "id": "888565bb-2749-49da-8142-94cb46ff9117",
+      "name": "Mason Ramirez",
+      "company": "Adobe",
+      "phone": "(825) 229-2385",
+      "email": "mason.ramirez@adobe.com",
+      "country": "Sweden",
+      "status": "Active",
+      "createdAt": "2025-06-02"
+    },
+    {
+      "id": "ed43c78a-78ca-4126-a997-65ae0b0df9d5",
+      "name": "Ryan Lee",
+      "company": "Tesla",
+      "phone": "(883) 116-8602",
+      "email": "ryan.lee@tesla.com",
+      "country": "Poland",
+      "status": "Inactive",
+      "createdAt": "2024-09-07"
+    },
+    {
+      "id": "3fafa6fa-5f74-4f18-b5d0-0ece697236ff",
+      "name": "Mia Hall",
+      "company": "VMware",
+      "phone": "(991) 634-4992",
+      "email": "mia.hall@vmware.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2025-02-03"
+    },
+    {
+      "id": "03b7f641-fc04-48da-a295-b771b22ef718",
+      "name": "Matthew Rivera",
+      "company": "Oracle",
+      "phone": "(152) 476-5800",
+      "email": "matthew.rivera@oracle.com",
+      "country": "India",
+      "status": "Active",
+      "createdAt": "2024-12-15"
+    },
+    {
+      "id": "f3222d1b-35af-498b-b841-6c7688481e92",
+      "name": "Nora Roberts",
+      "company": "Stripe",
+      "phone": "(793) 785-5643",
+      "email": "nora.roberts@stripe.com",
+      "country": "Sweden",
+      "status": "Active",
+      "createdAt": "2024-05-18"
+    },
+    {
+      "id": "26a14150-f4bd-42cd-a15f-04d353fd9638",
+      "name": "Layla Jackson",
+      "company": "Oracle",
+      "phone": "(225) 350-6779",
+      "email": "layla.jackson@oracle.com",
+      "country": "Australia",
+      "status": "Active",
+      "createdAt": "2024-06-11"
+    },
+    {
+      "id": "abf2776c-d73d-4a1f-8ec4-01904d88289f",
+      "name": "Emily Adams",
+      "company": "Spotify",
+      "phone": "(683) 604-2723",
+      "email": "emily.adams@spotify.com",
+      "country": "Portugal",
+      "status": "Active",
+      "createdAt": "2024-03-23"
+    },
+    {
+      "id": "395ce7d5-2d92-4198-89d2-c118c9501f9c",
+      "name": "Luna Anderson",
+      "company": "VMware",
+      "phone": "(336) 623-3220",
+      "email": "luna.anderson@vmware.com",
+      "country": "South Korea",
+      "status": "Inactive",
+      "createdAt": "2025-05-19"
+    },
+    {
+      "id": "b0436f63-9320-464a-a665-7eb2ae681cd1",
+      "name": "Isabella Johnson",
+      "company": "Stripe",
+      "phone": "(828) 531-9042",
+      "email": "isabella.johnson@stripe.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2025-12-01"
+    },
+    {
+      "id": "a0e33b6d-46b4-422a-a638-d78caeb27c5d",
+      "name": "Asher White",
+      "company": "Oracle",
+      "phone": "(163) 792-6524",
+      "email": "asher.white@oracle.com",
+      "country": "Canada",
+      "status": "Active",
+      "createdAt": "2025-11-23"
+    },
+    {
+      "id": "770cb812-aac0-4005-9502-862631631d0a",
+      "name": "Mason Hernandez",
+      "company": "Apple",
+      "phone": "(885) 281-2088",
+      "email": "mason.hernandez@apple.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2025-02-21"
+    },
+    {
+      "id": "305863d3-9ece-4923-acaa-520b9df06c05",
+      "name": "Isabella Garcia",
+      "company": "IBM",
+      "phone": "(280) 857-9096",
+      "email": "isabella.garcia@ibm.com",
+      "country": "Germany",
+      "status": "Inactive",
+      "createdAt": "2025-06-01"
+    },
+    {
+      "id": "6585936a-0b0f-44e7-b5fa-4ae84d4aa134",
+      "name": "Abigail Nelson",
+      "company": "Square",
+      "phone": "(916) 853-3059",
+      "email": "abigail.nelson@square.com",
+      "country": "Poland",
+      "status": "Inactive",
+      "createdAt": "2025-11-29"
+    },
+    {
+      "id": "72241e1c-958a-413b-adfc-38e6d865ad49",
+      "name": "Noah Harris",
+      "company": "Google",
+      "phone": "(981) 430-8081",
+      "email": "noah.harris@google.com",
+      "country": "Switzerland",
+      "status": "Active",
+      "createdAt": "2025-02-02"
+    },
+    {
+      "id": "d12ee5f2-db44-4ca6-a77e-6419eedfefbe",
+      "name": "Ella Robinson",
+      "company": "Lenovo",
+      "phone": "(584) 532-3491",
+      "email": "ella.robinson@lenovo.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2025-10-12"
+    },
+    {
+      "id": "967e4a67-0c36-434a-9ea0-1215e0a39dce",
+      "name": "Asher Wright",
+      "company": "Acer",
+      "phone": "(530) 630-2513",
+      "email": "asher.wright@acer.com",
+      "country": "Mexico",
+      "status": "Inactive",
+      "createdAt": "2025-01-16"
+    },
+    {
+      "id": "379e6816-b46b-465e-ad6e-b636e2ad9e54",
+      "name": "Eleanor Thompson",
+      "company": "Dell",
+      "phone": "(586) 849-7768",
+      "email": "eleanor.thompson@dell.com",
+      "country": "Spain",
+      "status": "Inactive",
+      "createdAt": "2025-10-08"
+    },
+    {
+      "id": "1eb97ffd-4a86-4be9-80d1-e9354a9c3966",
+      "name": "Chloe Walker",
+      "company": "HP",
+      "phone": "(412) 487-9772",
+      "email": "chloe.walker@hp.com",
+      "country": "Norway",
+      "status": "Active",
+      "createdAt": "2025-06-28"
+    },
+    {
+      "id": "6428339d-9bdd-4991-b643-de3029195262",
+      "name": "Mia White",
+      "company": "Dell",
+      "phone": "(441) 317-3545",
+      "email": "mia.white@dell.com",
+      "country": "Canada",
+      "status": "Inactive",
+      "createdAt": "2024-12-02"
+    },
+    {
+      "id": "68293cd1-00b0-47fb-a93a-9ac2126affcb",
+      "name": "Mia Harris",
+      "company": "Square",
+      "phone": "(588) 825-5037",
+      "email": "mia.harris@square.com",
+      "country": "UK",
+      "status": "Active",
+      "createdAt": "2024-02-07"
+    },
+    {
+      "id": "5a2f2505-e8b2-4b0b-a78b-bd60bc95d4a9",
+      "name": "Addison Thompson",
+      "company": "Shopify",
+      "phone": "(774) 144-4492",
+      "email": "addison.thompson@shopify.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2025-03-22"
+    },
+    {
+      "id": "0265e981-3dce-41b4-b062-1df0e9f07d73",
+      "name": "James Miller",
+      "company": "Samsung",
+      "phone": "(845) 983-3722",
+      "email": "james.miller@samsung.com",
+      "country": "Portugal",
+      "status": "Active",
+      "createdAt": "2025-10-28"
+    },
+    {
+      "id": "2f8a7d57-6bb1-4d58-80d2-6572dc637874",
+      "name": "James Lewis",
+      "company": "AMD",
+      "phone": "(426) 877-8176",
+      "email": "james.lewis@amd.com",
+      "country": "Argentina",
+      "status": "Inactive",
+      "createdAt": "2025-10-19"
+    },
+    {
+      "id": "ba2d0f51-0543-47b4-a48e-df0b76da4990",
+      "name": "Sophia Clark",
+      "company": "Oracle",
+      "phone": "(516) 380-7461",
+      "email": "sophia.clark@oracle.com",
+      "country": "Austria",
+      "status": "Active",
+      "createdAt": "2026-01-10"
+    },
+    {
+      "id": "e2f2ca8f-2aea-4153-bd65-895cf03cbb97",
+      "name": "Evelyn Green",
+      "company": "Meta",
+      "phone": "(782) 885-3878",
+      "email": "evelyn.green@meta.com",
+      "country": "Italy",
+      "status": "Active",
+      "createdAt": "2025-10-28"
+    },
+    {
+      "id": "e9f51fba-939d-47e9-be80-26ca4cc3868f",
+      "name": "Emily Flores",
+      "company": "Twitter",
+      "phone": "(519) 779-9119",
+      "email": "emily.flores@twitter.com",
+      "country": "Netherlands",
+      "status": "Inactive",
+      "createdAt": "2025-05-19"
+    },
+    {
+      "id": "b57fbea2-dd57-4815-b1ae-2bc1182bc274",
+      "name": "Addison Thompson",
+      "company": "Google",
+      "phone": "(788) 576-1825",
+      "email": "addison.thompson@google.com",
+      "country": "Denmark",
+      "status": "Inactive",
+      "createdAt": "2024-02-22"
+    },
+    {
+      "id": "a6fd69f1-4023-4253-b6b8-766672862589",
+      "name": "David Anderson",
+      "company": "Slack",
+      "phone": "(444) 475-3555",
+      "email": "david.anderson@slack.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2024-12-28"
+    },
+    {
+      "id": "ef898cfe-1acb-492f-b11d-480c811c51d2",
+      "name": "Elijah Baker",
+      "company": "Apple",
+      "phone": "(756) 436-6453",
+      "email": "elijah.baker@apple.com",
+      "country": "New Zealand",
+      "status": "Active",
+      "createdAt": "2025-07-14"
+    },
+    {
+      "id": "77bbc161-2028-4eba-ada4-c2e18d0b3f0f",
+      "name": "Hannah Hernandez",
+      "company": "eBay",
+      "phone": "(844) 654-4070",
+      "email": "hannah.hernandez@ebay.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2025-02-18"
+    },
+    {
+      "id": "4bb03eff-007c-436e-a31c-b318e9e625f3",
+      "name": "Matthew Mitchell",
+      "company": "Lenovo",
+      "phone": "(194) 320-4695",
+      "email": "matthew.mitchell@lenovo.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2025-01-04"
+    },
+    {
+      "id": "627335d0-e376-430e-812a-d7b9fa0a4df9",
+      "name": "Aiden Rivera",
+      "company": "IBM",
+      "phone": "(634) 485-8817",
+      "email": "aiden.rivera@ibm.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2025-08-21"
+    },
+    {
+      "id": "bff50e18-a394-4a24-bc6a-029563a8d817",
+      "name": "Addison Martinez",
+      "company": "Cisco",
+      "phone": "(441) 703-7203",
+      "email": "addison.martinez@cisco.com",
+      "country": "Norway",
+      "status": "Active",
+      "createdAt": "2025-10-27"
+    },
+    {
+      "id": "91bb7099-37f5-4d3b-a8a3-a10462d3754b",
+      "name": "Liam Wilson",
+      "company": "LG",
+      "phone": "(557) 921-7877",
+      "email": "liam.wilson@lg.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2024-07-20"
+    },
+    {
+      "id": "48fedebc-b929-435b-8fee-d94058278dd0",
+      "name": "William Thomas",
+      "company": "Adobe",
+      "phone": "(509) 400-4481",
+      "email": "william.thomas@adobe.com",
+      "country": "Belgium",
+      "status": "Active",
+      "createdAt": "2025-02-08"
+    },
+    {
+      "id": "1ea78170-867e-41c6-867d-9f89e0c95aa0",
+      "name": "Alexander Wright",
+      "company": "Tesla",
+      "phone": "(612) 201-7024",
+      "email": "alexander.wright@tesla.com",
+      "country": "Germany",
+      "status": "Inactive",
+      "createdAt": "2025-03-30"
+    },
+    {
+      "id": "159421a8-2daa-413d-80fb-f77dfdf1cd68",
+      "name": "Evelyn Green",
+      "company": "Netflix",
+      "phone": "(853) 373-9435",
+      "email": "evelyn.green@netflix.com",
+      "country": "South Korea",
+      "status": "Active",
+      "createdAt": "2025-08-02"
+    },
+    {
+      "id": "51c3dc15-b9d0-4246-af71-ec736ac6e455",
+      "name": "Olivia Phillips",
+      "company": "VMware",
+      "phone": "(136) 663-8180",
+      "email": "olivia.phillips@vmware.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2025-11-01"
+    },
+    {
+      "id": "3223f09a-d512-4004-b4dc-0b1fab5673cd",
+      "name": "Daniel Scott",
+      "company": "Amazon",
+      "phone": "(400) 508-9343",
+      "email": "daniel.scott@amazon.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2025-09-29"
+    },
+    {
+      "id": "1e2a9558-e104-4080-b6fe-4d2ae7ee3e93",
+      "name": "Logan Harris",
+      "company": "Spotify",
+      "phone": "(970) 879-6860",
+      "email": "logan.harris@spotify.com",
+      "country": "Belgium",
+      "status": "Active",
+      "createdAt": "2025-10-24"
+    },
+    {
+      "id": "337f6e48-172b-493b-b774-d6f8f18fae5d",
+      "name": "Joseph Wright",
+      "company": "Oracle",
+      "phone": "(737) 997-1186",
+      "email": "joseph.wright@oracle.com",
+      "country": "South Korea",
+      "status": "Inactive",
+      "createdAt": "2025-11-20"
+    },
+    {
+      "id": "b03becc1-fbc2-4b19-8ec7-e626c4aef6f1",
+      "name": "Luna Brown",
+      "company": "PayPal",
+      "phone": "(390) 717-9722",
+      "email": "luna.brown@paypal.com",
+      "country": "France",
+      "status": "Active",
+      "createdAt": "2024-12-22"
+    },
+    {
+      "id": "4526f659-7732-40f9-8e5c-8c46d7e97956",
+      "name": "Sebastian Hill",
+      "company": "Uber",
+      "phone": "(462) 444-9014",
+      "email": "sebastian.hill@uber.com",
+      "country": "Italy",
+      "status": "Active",
+      "createdAt": "2024-10-31"
+    },
+    {
+      "id": "793bc3bc-02bf-4776-8cd0-580fbc5f7e59",
+      "name": "Owen Campbell",
+      "company": "Dropbox",
+      "phone": "(255) 562-8921",
+      "email": "owen.campbell@dropbox.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2024-05-10"
+    },
+    {
+      "id": "7aaf0c0a-c07b-4fc6-97a7-6dc37545f681",
+      "name": "Alexander Cooper",
+      "company": "Slack",
+      "phone": "(555) 882-1570",
+      "email": "alexander.cooper@slack.com",
+      "country": "South Korea",
+      "status": "Active",
+      "createdAt": "2025-12-27"
+    },
+    {
+      "id": "96f41780-012a-4ca4-8541-09065afe0513",
+      "name": "Zoey Flores",
+      "company": "Acer",
+      "phone": "(106) 441-3897",
+      "email": "zoey.flores@acer.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2024-12-07"
+    },
+    {
+      "id": "665c5513-295f-4861-843a-082d6966219d",
+      "name": "Sebastian Thomas",
+      "company": "Intel",
+      "phone": "(540) 424-6516",
+      "email": "sebastian.thomas@intel.com",
+      "country": "New Zealand",
+      "status": "Active",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "e39cf75f-9912-46d8-8df0-7968ed853227",
+      "name": "Elijah Moore",
+      "company": "Meta",
+      "phone": "(408) 648-6254",
+      "email": "elijah.moore@meta.com",
+      "country": "Poland",
+      "status": "Active",
+      "createdAt": "2025-01-23"
+    },
+    {
+      "id": "6e02d0d4-1053-44d5-b74d-945fa3a10bbd",
+      "name": "Ethan Wilson",
+      "company": "LG",
+      "phone": "(878) 345-9059",
+      "email": "ethan.wilson@lg.com",
+      "country": "Belgium",
+      "status": "Inactive",
+      "createdAt": "2024-08-17"
+    },
+    {
+      "id": "96d0d7d6-76bf-420e-b388-9f0977240a74",
+      "name": "Noah Roberts",
+      "company": "Slack",
+      "phone": "(100) 259-8672",
+      "email": "noah.roberts@slack.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2024-04-21"
+    },
+    {
+      "id": "7b8012e7-fcf6-44e7-bdb3-321353f87d08",
+      "name": "Daniel Hernandez",
+      "company": "Twitter",
+      "phone": "(847) 183-8596",
+      "email": "daniel.hernandez@twitter.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2026-01-10"
+    },
+    {
+      "id": "64da126d-2bde-44b4-a442-925f32317652",
+      "name": "Olivia Cooper",
+      "company": "VMware",
+      "phone": "(519) 711-7144",
+      "email": "olivia.cooper@vmware.com",
+      "country": "Switzerland",
+      "status": "Active",
+      "createdAt": "2025-10-10"
+    },
+    {
+      "id": "7be458a3-4826-4cf9-b77d-8fdeb02db9b9",
+      "name": "Ryan Martin",
+      "company": "Nvidia",
+      "phone": "(206) 388-4790",
+      "email": "ryan.martin@nvidia.com",
+      "country": "France",
+      "status": "Active",
+      "createdAt": "2024-12-13"
+    },
+    {
+      "id": "fe3a0d12-06fb-4ead-9061-c5f4c15c15f6",
+      "name": "Noah Clark",
+      "company": "Stripe",
+      "phone": "(345) 393-3686",
+      "email": "noah.clark@stripe.com",
+      "country": "Sweden",
+      "status": "Active",
+      "createdAt": "2025-04-16"
+    },
+    {
+      "id": "f05d61ba-9d3a-49d8-a5be-8dfc06bc16e4",
+      "name": "Caleb Anderson",
+      "company": "Meta",
+      "phone": "(753) 373-3449",
+      "email": "caleb.anderson@meta.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2025-05-16"
+    },
+    {
+      "id": "937f6b55-6afa-4529-81eb-f1b6f3aca840",
+      "name": "Evelyn Scott",
+      "company": "Adobe",
+      "phone": "(452) 428-7623",
+      "email": "evelyn.scott@adobe.com",
+      "country": "Ireland",
+      "status": "Inactive",
+      "createdAt": "2025-12-07"
+    },
+    {
+      "id": "d7c901ce-bfb7-43ec-8e6a-5c71c0fe4619",
+      "name": "Liam Harris",
+      "company": "Salesforce",
+      "phone": "(941) 765-6567",
+      "email": "liam.harris@salesforce.com",
+      "country": "UK",
+      "status": "Active",
+      "createdAt": "2024-06-24"
+    },
+    {
+      "id": "a3291bd5-b1b8-4ff8-8434-39fd33581514",
+      "name": "Mia Rodriguez",
+      "company": "Amazon",
+      "phone": "(839) 389-5147",
+      "email": "mia.rodriguez@amazon.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2025-09-18"
+    },
+    {
+      "id": "3fc0e3a3-3592-4a54-9be8-59ab6886b8da",
+      "name": "Nora Lopez",
+      "company": "Sony",
+      "phone": "(221) 527-1927",
+      "email": "nora.lopez@sony.com",
+      "country": "Canada",
+      "status": "Inactive",
+      "createdAt": "2025-07-22"
+    },
+    {
+      "id": "40405d28-2d39-4c9a-a995-a86f9fa8036b",
+      "name": "Addison Flores",
+      "company": "Adobe",
+      "phone": "(133) 282-9169",
+      "email": "addison.flores@adobe.com",
+      "country": "Poland",
+      "status": "Active",
+      "createdAt": "2024-03-17"
+    },
+    {
+      "id": "2a1e365e-4cec-406b-8e11-bd6e0c785643",
+      "name": "Evelyn Rodriguez",
+      "company": "Stripe",
+      "phone": "(299) 933-7430",
+      "email": "evelyn.rodriguez@stripe.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2025-02-16"
+    },
+    {
+      "id": "36575a4f-fadb-41d5-b0fe-948262be36d2",
+      "name": "Emma Lee",
+      "company": "Stripe",
+      "phone": "(926) 841-9120",
+      "email": "emma.lee@stripe.com",
+      "country": "UK",
+      "status": "Inactive",
+      "createdAt": "2024-03-03"
+    },
+    {
+      "id": "a3cc2d24-1671-4776-8e14-71786b68caaf",
+      "name": "Oliver Wilson",
+      "company": "IBM",
+      "phone": "(786) 238-8252",
+      "email": "oliver.wilson@ibm.com",
+      "country": "UK",
+      "status": "Active",
+      "createdAt": "2024-10-19"
+    },
+    {
+      "id": "4d2ccbd2-4126-4bc0-9a32-fee6493f21b7",
+      "name": "Chloe Taylor",
+      "company": "PayPal",
+      "phone": "(891) 717-4410",
+      "email": "chloe.taylor@paypal.com",
+      "country": "China",
+      "status": "Inactive",
+      "createdAt": "2024-04-09"
+    },
+    {
+      "id": "3d3319d1-b433-4dc0-b759-8f2d7118cccc",
+      "name": "Ryan Phillips",
+      "company": "Asus",
+      "phone": "(187) 759-6157",
+      "email": "ryan.phillips@asus.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2024-11-28"
+    },
+    {
+      "id": "70f22710-e23a-4c6c-b306-9b170d83ce8e",
+      "name": "Aiden Martinez",
+      "company": "VMware",
+      "phone": "(854) 459-1969",
+      "email": "aiden.martinez@vmware.com",
+      "country": "Netherlands",
+      "status": "Active",
+      "createdAt": "2025-02-23"
+    },
+    {
+      "id": "1f6dbf30-2d94-4896-9666-f4fb3bafaccc",
+      "name": "David Wright",
+      "company": "Netflix",
+      "phone": "(463) 892-3654",
+      "email": "david.wright@netflix.com",
+      "country": "Switzerland",
+      "status": "Active",
+      "createdAt": "2025-07-07"
+    },
+    {
+      "id": "337c9b3d-1a18-4396-8c62-5420d40a7704",
+      "name": "Asher Davis",
+      "company": "Amazon",
+      "phone": "(394) 121-5930",
+      "email": "asher.davis@amazon.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2026-01-08"
+    },
+    {
+      "id": "7dae3a66-468f-4f2a-bc64-88bdbb4bcf34",
+      "name": "Daniel Taylor",
+      "company": "Asus",
+      "phone": "(379) 540-3668",
+      "email": "daniel.taylor@asus.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2025-12-08"
+    },
+    {
+      "id": "0d22151a-1b90-4f36-b516-870a4fd46893",
+      "name": "Jane King",
+      "company": "Nvidia",
+      "phone": "(718) 990-1300",
+      "email": "jane.king@nvidia.com",
+      "country": "Switzerland",
+      "status": "Inactive",
+      "createdAt": "2025-05-10"
+    },
+    {
+      "id": "d21de91f-3ff4-4909-8a8a-6fb6d45e38bf",
+      "name": "Sophia Flores",
+      "company": "Google",
+      "phone": "(246) 137-6684",
+      "email": "sophia.flores@google.com",
+      "country": "Portugal",
+      "status": "Inactive",
+      "createdAt": "2024-10-23"
+    },
+    {
+      "id": "02a156f5-14ed-4a21-b379-1c3f7680669d",
+      "name": "Joseph Davis",
+      "company": "Acer",
+      "phone": "(486) 823-8842",
+      "email": "joseph.davis@acer.com",
+      "country": "New Zealand",
+      "status": "Inactive",
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "4bf30d3f-cd09-43f2-8d26-ad1ce27c21c2",
+      "name": "Oliver Thompson",
+      "company": "Zoom",
+      "phone": "(108) 167-2215",
+      "email": "oliver.thompson@zoom.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2025-10-17"
+    },
+    {
+      "id": "6772a058-1707-4b9b-8353-90f038492070",
+      "name": "Henry Campbell",
+      "company": "Qualcomm",
+      "phone": "(665) 781-4302",
+      "email": "henry.campbell@qualcomm.com",
+      "country": "Netherlands",
+      "status": "Inactive",
+      "createdAt": "2024-08-07"
+    },
+    {
+      "id": "249de498-e113-4797-a454-7acfc38de4c9",
+      "name": "David Rodriguez",
+      "company": "VMware",
+      "phone": "(115) 748-5434",
+      "email": "david.rodriguez@vmware.com",
+      "country": "France",
+      "status": "Inactive",
+      "createdAt": "2025-06-26"
+    },
+    {
+      "id": "4b968d6e-b3f4-497f-9127-e16bbb11fdbb",
+      "name": "Layla Moore",
+      "company": "Slack",
+      "phone": "(263) 897-6904",
+      "email": "layla.moore@slack.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2024-12-19"
+    },
+    {
+      "id": "fe246f7f-beac-4891-b298-bf31070c4dde",
+      "name": "Sebastian White",
+      "company": "Cisco",
+      "phone": "(630) 550-1412",
+      "email": "sebastian.white@cisco.com",
+      "country": "Austria",
+      "status": "Inactive",
+      "createdAt": "2025-10-02"
+    },
+    {
+      "id": "5133f690-38ba-4f58-b0a1-d2dc49e5f10f",
+      "name": "Eleanor Jackson",
+      "company": "Netflix",
+      "phone": "(670) 412-5456",
+      "email": "eleanor.jackson@netflix.com",
+      "country": "Australia",
+      "status": "Active",
+      "createdAt": "2024-07-21"
+    },
+    {
+      "id": "a854e41a-b8a3-41cc-9222-337e47816312",
+      "name": "Oliver Green",
+      "company": "Sony",
+      "phone": "(103) 693-6335",
+      "email": "oliver.green@sony.com",
+      "country": "Poland",
+      "status": "Inactive",
+      "createdAt": "2024-09-24"
+    },
+    {
+      "id": "de254d85-41b1-490b-8c55-6dd6a11ea6a2",
+      "name": "Mia Smith",
+      "company": "Stripe",
+      "phone": "(690) 886-7979",
+      "email": "mia.smith@stripe.com",
+      "country": "Argentina",
+      "status": "Inactive",
+      "createdAt": "2025-02-07"
+    },
+    {
+      "id": "29c5e370-205d-494b-9d7a-dea9451edb66",
+      "name": "Luna Nelson",
+      "company": "IBM",
+      "phone": "(933) 911-9485",
+      "email": "luna.nelson@ibm.com",
+      "country": "South Korea",
+      "status": "Active",
+      "createdAt": "2025-10-16"
+    },
+    {
+      "id": "d89d4249-9318-4883-ad13-1f31f158f22d",
+      "name": "Benjamin Rivera",
+      "company": "Lenovo",
+      "phone": "(664) 807-5177",
+      "email": "benjamin.rivera@lenovo.com",
+      "country": "Norway",
+      "status": "Inactive",
+      "createdAt": "2025-09-10"
+    },
+    {
+      "id": "ad3d6598-a210-477f-ad0d-ede9153fc19e",
+      "name": "Emma King",
+      "company": "LinkedIn",
+      "phone": "(772) 506-9048",
+      "email": "emma.king@linkedin.com",
+      "country": "Austria",
+      "status": "Active",
+      "createdAt": "2025-08-29"
+    },
+    {
+      "id": "28b62b42-0273-4dda-8e5d-1da4fce32779",
+      "name": "Owen Mitchell",
+      "company": "Adobe",
+      "phone": "(965) 803-6724",
+      "email": "owen.mitchell@adobe.com",
+      "country": "Denmark",
+      "status": "Active",
+      "createdAt": "2025-10-31"
+    },
+    {
+      "id": "6f03e118-e932-4774-81ad-013d9b46ac6a",
+      "name": "Sarah Hall",
+      "company": "Dropbox",
+      "phone": "(188) 463-2966",
+      "email": "sarah.hall@dropbox.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2024-09-10"
+    },
+    {
+      "id": "6d69dfc1-df21-4be4-aecd-b74256bbfa4f",
+      "name": "Penelope Taylor",
+      "company": "Square",
+      "phone": "(482) 541-2772",
+      "email": "penelope.taylor@square.com",
+      "country": "South Korea",
+      "status": "Active",
+      "createdAt": "2025-07-17"
+    },
+    {
+      "id": "49dc2fd9-3e8b-47d8-bfbc-fcce6c67caed",
+      "name": "Logan Carter",
+      "company": "Dropbox",
+      "phone": "(969) 849-3363",
+      "email": "logan.carter@dropbox.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2024-02-01"
+    },
+    {
+      "id": "6c20918c-38b2-47df-b74d-33250ae9d196",
+      "name": "Samuel Adams",
+      "company": "Qualcomm",
+      "phone": "(446) 690-6871",
+      "email": "samuel.adams@qualcomm.com",
+      "country": "Netherlands",
+      "status": "Inactive",
+      "createdAt": "2024-08-11"
+    },
+    {
+      "id": "aeefad04-bdfe-41d6-852c-e1e04b8fcb7b",
+      "name": "Henry Wilson",
+      "company": "Lenovo",
+      "phone": "(600) 417-8007",
+      "email": "henry.wilson@lenovo.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2024-11-02"
+    },
+    {
+      "id": "b1c281b8-920a-4146-8fca-4f204491f70b",
+      "name": "Addison Nguyen",
+      "company": "HP",
+      "phone": "(185) 354-3801",
+      "email": "addison.nguyen@hp.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2025-09-12"
+    },
+    {
+      "id": "1abb0501-c68a-4e5b-b68a-13f916ecd08e",
+      "name": "Addison Jackson",
+      "company": "Adobe",
+      "phone": "(282) 538-7958",
+      "email": "addison.jackson@adobe.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2024-09-05"
+    },
+    {
+      "id": "cb458152-88d6-42e7-ac9e-b4397430926e",
+      "name": "Luna Evans",
+      "company": "LG",
+      "phone": "(471) 394-4864",
+      "email": "luna.evans@lg.com",
+      "country": "USA",
+      "status": "Inactive",
+      "createdAt": "2024-03-29"
+    },
+    {
+      "id": "fb4edecd-24a2-4dfb-934b-8446fc4be0c5",
+      "name": "William Walker",
+      "company": "Meta",
+      "phone": "(846) 106-9603",
+      "email": "william.walker@meta.com",
+      "country": "Brazil",
+      "status": "Inactive",
+      "createdAt": "2024-02-29"
+    },
+    {
+      "id": "1f0814bf-12fd-4256-a3a4-7ce95fc54ca2",
+      "name": "Asher Rodriguez",
+      "company": "HP",
+      "phone": "(762) 420-7462",
+      "email": "asher.rodriguez@hp.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2025-12-21"
+    },
+    {
+      "id": "721f21aa-d03f-46e5-aa92-d498b576a347",
+      "name": "Nora Hernandez",
+      "company": "Salesforce",
+      "phone": "(326) 113-2065",
+      "email": "nora.hernandez@salesforce.com",
+      "country": "Denmark",
+      "status": "Inactive",
+      "createdAt": "2024-05-26"
+    },
+    {
+      "id": "a2f4b927-df18-450f-8a0e-7af4facfdd38",
+      "name": "Ethan Wilson",
+      "company": "Airbnb",
+      "phone": "(423) 246-5566",
+      "email": "ethan.wilson@airbnb.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2025-11-12"
+    },
+    {
+      "id": "2d23898b-a1fe-4416-b944-0d5ca117cc15",
+      "name": "Charlotte White",
+      "company": "Qualcomm",
+      "phone": "(747) 421-5211",
+      "email": "charlotte.white@qualcomm.com",
+      "country": "Netherlands",
+      "status": "Active",
+      "createdAt": "2024-03-08"
+    },
+    {
+      "id": "64e3a71a-0563-43a8-8294-f281b1879c63",
+      "name": "Alexander Miller",
+      "company": "AMD",
+      "phone": "(390) 279-8785",
+      "email": "alexander.miller@amd.com",
+      "country": "UK",
+      "status": "Active",
+      "createdAt": "2024-05-11"
+    },
+    {
+      "id": "2648e836-482d-457a-a62c-411d2396dbcd",
+      "name": "Asher Allen",
+      "company": "PayPal",
+      "phone": "(882) 488-5874",
+      "email": "asher.allen@paypal.com",
+      "country": "Netherlands",
+      "status": "Inactive",
+      "createdAt": "2024-05-12"
+    },
+    {
+      "id": "a45d4f04-74a7-4ebe-a3c4-2139f644e2f5",
+      "name": "Ethan Rivera",
+      "company": "Spotify",
+      "phone": "(180) 377-1830",
+      "email": "ethan.rivera@spotify.com",
+      "country": "Sweden",
+      "status": "Active",
+      "createdAt": "2024-05-05"
+    },
+    {
+      "id": "00895d76-1699-4536-8317-b5ad33e036cf",
+      "name": "David Thompson",
+      "company": "Slack",
+      "phone": "(450) 133-1228",
+      "email": "david.thompson@slack.com",
+      "country": "Mexico",
+      "status": "Inactive",
+      "createdAt": "2026-01-05"
+    },
+    {
+      "id": "980b87a9-9885-41f5-8a12-bee8e322f6a3",
+      "name": "Charlotte Torres",
+      "company": "Stripe",
+      "phone": "(661) 502-4213",
+      "email": "charlotte.torres@stripe.com",
+      "country": "Germany",
+      "status": "Active",
+      "createdAt": "2025-02-07"
+    },
+    {
+      "id": "9d41da79-9986-46b5-9cef-046f2a9956f2",
+      "name": "Evelyn Davis",
+      "company": "eBay",
+      "phone": "(408) 174-6839",
+      "email": "evelyn.davis@ebay.com",
+      "country": "Japan",
+      "status": "Active",
+      "createdAt": "2025-11-15"
+    },
+    {
+      "id": "68301145-7603-45eb-aa16-c10c4fe14af1",
+      "name": "Caleb Wilson",
+      "company": "Dell",
+      "phone": "(396) 519-3809",
+      "email": "caleb.wilson@dell.com",
+      "country": "Australia",
+      "status": "Active",
+      "createdAt": "2025-01-30"
+    },
+    {
+      "id": "4b62fd15-eb6b-499c-b175-45c5a91b58b8",
+      "name": "Alexander Baker",
+      "company": "Nvidia",
+      "phone": "(476) 689-7749",
+      "email": "alexander.baker@nvidia.com",
+      "country": "Austria",
+      "status": "Active",
+      "createdAt": "2025-04-20"
+    },
+    {
+      "id": "f1d21c93-a046-4d47-a449-059f979fee5c",
+      "name": "Aiden Cooper",
+      "company": "Nvidia",
+      "phone": "(932) 732-3755",
+      "email": "aiden.cooper@nvidia.com",
+      "country": "Italy",
+      "status": "Inactive",
+      "createdAt": "2025-11-14"
+    },
+    {
+      "id": "a5f5fdef-4c74-4fd1-b277-52fd019ada05",
+      "name": "Emily Hernandez",
+      "company": "HP",
+      "phone": "(435) 257-4722",
+      "email": "emily.hernandez@hp.com",
+      "country": "India",
+      "status": "Active",
+      "createdAt": "2025-10-09"
+    },
+    {
+      "id": "ca2a3e93-1a33-4e21-b526-2a5e2d772cd3",
+      "name": "Ella Hall",
+      "company": "Stripe",
+      "phone": "(495) 183-6882",
+      "email": "ella.hall@stripe.com",
+      "country": "Norway",
+      "status": "Inactive",
+      "createdAt": "2025-03-13"
+    },
+    {
+      "id": "493c9f51-b261-490f-9d89-93431bf99cd6",
+      "name": "Alexander Clark",
+      "company": "Microsoft",
+      "phone": "(974) 712-6482",
+      "email": "alexander.clark@microsoft.com",
+      "country": "Portugal",
+      "status": "Active",
+      "createdAt": "2025-02-28"
+    },
+    {
+      "id": "3ca7b69e-d631-484e-9104-7ad9d7c86c01",
+      "name": "Benjamin Thomas",
+      "company": "HP",
+      "phone": "(667) 875-2885",
+      "email": "benjamin.thomas@hp.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2025-12-20"
+    },
+    {
+      "id": "0e2be145-bc02-415a-b574-149c8d3de7a2",
+      "name": "Jane Martin",
+      "company": "Zoom",
+      "phone": "(883) 970-7016",
+      "email": "jane.martin@zoom.com",
+      "country": "Sweden",
+      "status": "Active",
+      "createdAt": "2024-09-16"
+    },
+    {
+      "id": "6e7ddbdc-999e-4426-aacc-6730e583f603",
+      "name": "Amelia Phillips",
+      "company": "Shopify",
+      "phone": "(559) 645-9898",
+      "email": "amelia.phillips@shopify.com",
+      "country": "Denmark",
+      "status": "Inactive",
+      "createdAt": "2024-04-03"
+    },
+    {
+      "id": "722538e9-bbc6-45c1-8ebc-ec169bb34338",
+      "name": "William Allen",
+      "company": "Lenovo",
+      "phone": "(605) 612-5148",
+      "email": "william.allen@lenovo.com",
+      "country": "Norway",
+      "status": "Active",
+      "createdAt": "2025-01-08"
+    },
+    {
+      "id": "bf496d07-ae05-4dc0-8795-67a073ea7075",
+      "name": "Amelia Hill",
+      "company": "Stripe",
+      "phone": "(745) 365-3149",
+      "email": "amelia.hill@stripe.com",
+      "country": "Sweden",
+      "status": "Active",
+      "createdAt": "2024-04-12"
+    },
+    {
+      "id": "90dfe9bd-913a-4c3a-a72e-da5791ed0d74",
+      "name": "Lucas Hernandez",
+      "company": "HP",
+      "phone": "(467) 953-3387",
+      "email": "lucas.hernandez@hp.com",
+      "country": "New Zealand",
+      "status": "Active",
+      "createdAt": "2024-03-21"
+    },
+    {
+      "id": "2907532c-8157-4efd-b5db-93d3a91b373f",
+      "name": "Jack Roberts",
+      "company": "Apple",
+      "phone": "(324) 816-7217",
+      "email": "jack.roberts@apple.com",
+      "country": "Denmark",
+      "status": "Inactive",
+      "createdAt": "2025-09-21"
+    },
+    {
+      "id": "412c0797-f701-4e14-b7de-b05ef04e1f94",
+      "name": "Nora Jones",
+      "company": "Cisco",
+      "phone": "(913) 695-1544",
+      "email": "nora.jones@cisco.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2024-07-26"
+    },
+    {
+      "id": "c249f19b-217a-4791-a257-d528db74bacc",
+      "name": "Amelia Wilson",
+      "company": "Acer",
+      "phone": "(817) 294-9492",
+      "email": "amelia.wilson@acer.com",
+      "country": "India",
+      "status": "Inactive",
+      "createdAt": "2025-05-10"
+    },
+    {
+      "id": "094f38b0-909d-4303-837e-dec4e0bf5ecd",
+      "name": "Samuel Nelson",
+      "company": "Lenovo",
+      "phone": "(720) 104-9807",
+      "email": "samuel.nelson@lenovo.com",
+      "country": "Germany",
+      "status": "Active",
+      "createdAt": "2024-05-02"
+    },
+    {
+      "id": "69ea22fd-9f00-409a-a71f-5fcbfc9693ec",
+      "name": "Lillian Martinez",
+      "company": "Cisco",
+      "phone": "(666) 184-2258",
+      "email": "lillian.martinez@cisco.com",
+      "country": "Poland",
+      "status": "Inactive",
+      "createdAt": "2025-06-22"
+    },
+    {
+      "id": "f1a90e5f-fb9d-464d-8bc8-f86148d3303e",
+      "name": "Nora Jones",
+      "company": "PayPal",
+      "phone": "(733) 911-1282",
+      "email": "nora.jones@paypal.com",
+      "country": "Austria",
+      "status": "Active",
+      "createdAt": "2025-05-29"
+    },
+    {
+      "id": "ff111c0b-1e57-4111-a1ad-3a135099b187",
+      "name": "Logan Young",
+      "company": "Salesforce",
+      "phone": "(885) 592-3727",
+      "email": "logan.young@salesforce.com",
+      "country": "Netherlands",
+      "status": "Inactive",
+      "createdAt": "2024-03-22"
+    },
+    {
+      "id": "55230d82-1633-4e55-87e6-f612bacedbdc",
+      "name": "Layla Flores",
+      "company": "eBay",
+      "phone": "(918) 154-2637",
+      "email": "layla.flores@ebay.com",
+      "country": "Italy",
+      "status": "Active",
+      "createdAt": "2024-12-23"
+    },
+    {
+      "id": "bcc27374-1959-4cfb-bbc5-dcd0545eb91f",
+      "name": "James Sanchez",
+      "company": "Netflix",
+      "phone": "(343) 908-9453",
+      "email": "james.sanchez@netflix.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2025-02-26"
+    },
+    {
+      "id": "270a6f88-27cd-4f22-8ca0-3b2280c61b7b",
+      "name": "Matthew Garcia",
+      "company": "Amazon",
+      "phone": "(290) 645-5365",
+      "email": "matthew.garcia@amazon.com",
+      "country": "Italy",
+      "status": "Active",
+      "createdAt": "2025-12-05"
+    },
+    {
+      "id": "3eefcd91-5af6-4cbd-8af3-2627f3fb8019",
+      "name": "Caleb Flores",
+      "company": "Sony",
+      "phone": "(170) 921-2314",
+      "email": "caleb.flores@sony.com",
+      "country": "Denmark",
+      "status": "Active",
+      "createdAt": "2025-06-19"
+    },
+    {
+      "id": "7acd39c2-02f3-4ebd-a0bc-b00b8f67d751",
+      "name": "Matthew Mitchell",
+      "company": "Netflix",
+      "phone": "(880) 698-4941",
+      "email": "matthew.mitchell@netflix.com",
+      "country": "India",
+      "status": "Active",
+      "createdAt": "2024-06-27"
+    },
+    {
+      "id": "650eaa6e-ca88-467c-9f0b-e4c870eae55c",
+      "name": "Owen Hernandez",
+      "company": "Tesla",
+      "phone": "(250) 212-8225",
+      "email": "owen.hernandez@tesla.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2024-05-12"
+    },
+    {
+      "id": "0c782502-6d10-4570-b806-87eb7d29f94f",
+      "name": "Ella Phillips",
+      "company": "Slack",
+      "phone": "(863) 235-5501",
+      "email": "ella.phillips@slack.com",
+      "country": "Ireland",
+      "status": "Inactive",
+      "createdAt": "2025-04-05"
+    },
+    {
+      "id": "16c80282-e244-4336-a649-a1bacb560f64",
+      "name": "Leo Williams",
+      "company": "Meta",
+      "phone": "(628) 322-7032",
+      "email": "leo.williams@meta.com",
+      "country": "Brazil",
+      "status": "Inactive",
+      "createdAt": "2024-06-09"
+    },
+    {
+      "id": "f6b264ea-d8a5-4895-ad8f-84c9d2e6a803",
+      "name": "Liam Taylor",
+      "company": "HP",
+      "phone": "(880) 242-3490",
+      "email": "liam.taylor@hp.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2026-01-16"
+    },
+    {
+      "id": "1f94c15d-25f2-48a2-938f-f335ae467dd7",
+      "name": "David Smith",
+      "company": "Nvidia",
+      "phone": "(200) 109-1113",
+      "email": "david.smith@nvidia.com",
+      "country": "Netherlands",
+      "status": "Active",
+      "createdAt": "2024-05-10"
+    },
+    {
+      "id": "f851841c-a569-4914-ae34-b2a97653a0fe",
+      "name": "Amelia Evans",
+      "company": "LinkedIn",
+      "phone": "(946) 390-1417",
+      "email": "amelia.evans@linkedin.com",
+      "country": "Sweden",
+      "status": "Active",
+      "createdAt": "2025-02-21"
+    },
+    {
+      "id": "8128f746-991a-4cfa-84b8-861ce76cbf23",
+      "name": "Michael Walker",
+      "company": "Acer",
+      "phone": "(964) 587-6145",
+      "email": "michael.walker@acer.com",
+      "country": "South Korea",
+      "status": "Active",
+      "createdAt": "2024-03-21"
+    },
+    {
+      "id": "0daf6811-ab72-4255-b149-c448028365b2",
+      "name": "Lillian Walker",
+      "company": "Cisco",
+      "phone": "(568) 470-3543",
+      "email": "lillian.walker@cisco.com",
+      "country": "Norway",
+      "status": "Inactive",
+      "createdAt": "2024-12-16"
+    },
+    {
+      "id": "6123ddb5-70fb-472d-8473-ffe329acf16b",
+      "name": "Daniel Allen",
+      "company": "Microsoft",
+      "phone": "(454) 916-1692",
+      "email": "daniel.allen@microsoft.com",
+      "country": "Italy",
+      "status": "Inactive",
+      "createdAt": "2026-01-03"
+    },
+    {
+      "id": "36f6a551-0ae1-4422-b5e3-6669d8ac54a1",
+      "name": "Avery Jackson",
+      "company": "Twitter",
+      "phone": "(157) 362-7920",
+      "email": "avery.jackson@twitter.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2024-06-13"
+    },
+    {
+      "id": "c25eeacb-f445-47f9-a2d0-5da55b507e2a",
+      "name": "James Williams",
+      "company": "Microsoft",
+      "phone": "(722) 151-7036",
+      "email": "james.williams@microsoft.com",
+      "country": "New Zealand",
+      "status": "Inactive",
+      "createdAt": "2025-02-18"
+    },
+    {
+      "id": "01affb5f-2940-401c-b7fc-819c77650a80",
+      "name": "Isabella Thompson",
+      "company": "Intel",
+      "phone": "(708) 382-5186",
+      "email": "isabella.thompson@intel.com",
+      "country": "Switzerland",
+      "status": "Active",
+      "createdAt": "2024-07-20"
+    },
+    {
+      "id": "164f3865-d375-4ef5-9d6e-eb0d6283193c",
+      "name": "Joseph Allen",
+      "company": "VMware",
+      "phone": "(278) 913-2798",
+      "email": "joseph.allen@vmware.com",
+      "country": "Belgium",
+      "status": "Active",
+      "createdAt": "2024-07-18"
+    },
+    {
+      "id": "9a8a258a-69a3-4561-995e-438cb85789d5",
+      "name": "Mia Lewis",
+      "company": "AMD",
+      "phone": "(724) 664-1944",
+      "email": "mia.lewis@amd.com",
+      "country": "Germany",
+      "status": "Inactive",
+      "createdAt": "2024-08-12"
+    },
+    {
+      "id": "8c27343e-942d-438d-8d98-36f32b0f4df7",
+      "name": "Oliver Torres",
+      "company": "Meta",
+      "phone": "(492) 201-5858",
+      "email": "oliver.torres@meta.com",
+      "country": "France",
+      "status": "Active",
+      "createdAt": "2024-12-21"
+    },
+    {
+      "id": "53192b9b-c2fe-4698-b2d9-d826746cc52c",
+      "name": "Logan Miller",
+      "company": "Zoom",
+      "phone": "(290) 453-5668",
+      "email": "logan.miller@zoom.com",
+      "country": "Austria",
+      "status": "Inactive",
+      "createdAt": "2025-07-16"
+    },
+    {
+      "id": "38b39872-413b-468f-b20b-50a31df4269a",
+      "name": "David Sanchez",
+      "company": "AMD",
+      "phone": "(581) 749-5703",
+      "email": "david.sanchez@amd.com",
+      "country": "China",
+      "status": "Active",
+      "createdAt": "2025-06-28"
+    },
+    {
+      "id": "b031ff84-5c28-4376-8b32-2980fefc7ec3",
+      "name": "Oliver Brown",
+      "company": "Dell",
+      "phone": "(298) 207-2256",
+      "email": "oliver.brown@dell.com",
+      "country": "Mexico",
+      "status": "Active",
+      "createdAt": "2024-05-22"
+    },
+    {
+      "id": "fb243d02-1fe1-4f91-b055-79663a0f6e1b",
+      "name": "Ryan Anderson",
+      "company": "LinkedIn",
+      "phone": "(771) 993-7809",
+      "email": "ryan.anderson@linkedin.com",
+      "country": "Ireland",
+      "status": "Active",
+      "createdAt": "2025-12-31"
+    },
+    {
+      "id": "d024a391-7276-4e74-96bc-10742c3ba415",
+      "name": "Lillian Ramirez",
+      "company": "IBM",
+      "phone": "(829) 671-8328",
+      "email": "lillian.ramirez@ibm.com",
+      "country": "Poland",
+      "status": "Active",
+      "createdAt": "2025-06-17"
+    },
+    {
+      "id": "4a7810c8-c70d-469d-943a-36b468854dec",
+      "name": "Joseph Carter",
+      "company": "Square",
+      "phone": "(816) 447-3535",
+      "email": "joseph.carter@square.com",
+      "country": "Poland",
+      "status": "Inactive",
+      "createdAt": "2024-05-27"
+    },
+    {
+      "id": "816159ec-8c52-4772-b8f9-fa6198022e14",
+      "name": "Asher King",
+      "company": "Qualcomm",
+      "phone": "(940) 547-2345",
+      "email": "asher.king@qualcomm.com",
+      "country": "South Korea",
+      "status": "Inactive",
+      "createdAt": "2025-11-29"
+    },
+    {
+      "id": "f54870bc-cc6d-4c87-ad34-d1a8ec9c3344",
+      "name": "Luna Smith",
+      "company": "Airbnb",
+      "phone": "(906) 708-4567",
+      "email": "luna.smith@airbnb.com",
+      "country": "France",
+      "status": "Active",
+      "createdAt": "2024-04-06"
+    },
+    {
+      "id": "0d359502-7c7c-4d75-83c3-b797cf21fe04",
+      "name": "Jack King",
+      "company": "LG",
+      "phone": "(958) 636-1678",
+      "email": "jack.king@lg.com",
+      "country": "Denmark",
+      "status": "Active",
+      "createdAt": "2025-01-16"
+    },
+    {
+      "id": "45a6f160-a4b4-4a8e-82df-4462b788f93f",
+      "name": "Mia Young",
+      "company": "Salesforce",
+      "phone": "(760) 978-2489",
+      "email": "mia.young@salesforce.com",
+      "country": "Switzerland",
+      "status": "Active",
+      "createdAt": "2025-12-09"
+    },
+    {
+      "id": "013da0e5-1edc-47dc-905d-d92780cd5590",
+      "name": "Henry Adams",
+      "company": "Salesforce",
+      "phone": "(882) 774-1008",
+      "email": "henry.adams@salesforce.com",
+      "country": "Switzerland",
+      "status": "Inactive",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "ceac490d-0369-4cb2-8421-ffbaa0bedd0b",
+      "name": "Leo Lopez",
+      "company": "Qualcomm",
+      "phone": "(512) 322-1323",
+      "email": "leo.lopez@qualcomm.com",
+      "country": "Singapore",
+      "status": "Inactive",
+      "createdAt": "2024-05-11"
+    },
+    {
+      "id": "94c1f37f-33f4-4a8a-ab27-72d0c1c3f12a",
+      "name": "Liam Allen",
+      "company": "Apple",
+      "phone": "(695) 812-9794",
+      "email": "liam.allen@apple.com",
+      "country": "New Zealand",
+      "status": "Active",
+      "createdAt": "2024-10-16"
+    },
+    {
+      "id": "8ebe9271-d32b-4039-8e61-2e79b671ba67",
+      "name": "Jack Wright",
+      "company": "Qualcomm",
+      "phone": "(231) 459-7768",
+      "email": "jack.wright@qualcomm.com",
+      "country": "Sweden",
+      "status": "Inactive",
+      "createdAt": "2025-10-09"
+    },
+    {
+      "id": "b6fde343-c3c6-40a5-9338-18e0d227340a",
+      "name": "Leo Jones",
+      "company": "AMD",
+      "phone": "(781) 204-7539",
+      "email": "leo.jones@amd.com",
+      "country": "Belgium",
+      "status": "Active",
+      "createdAt": "2024-09-15"
+    },
+    {
+      "id": "13f1eeff-85dc-4ef3-bc16-e2f6e572df72",
+      "name": "James Torres",
+      "company": "Cisco",
+      "phone": "(690) 519-1637",
+      "email": "james.torres@cisco.com",
+      "country": "France",
+      "status": "Inactive",
+      "createdAt": "2024-03-28"
+    },
+    {
+      "id": "accef2a7-b466-467f-a699-7286d09855bc",
+      "name": "Ella Rivera",
+      "company": "Sony",
+      "phone": "(344) 377-4905",
+      "email": "ella.rivera@sony.com",
+      "country": "Australia",
+      "status": "Active",
+      "createdAt": "2025-08-02"
+    },
+    {
+      "id": "cfc6ac00-d4eb-4aa3-934e-65c51b49d3fd",
+      "name": "Henry Wilson",
+      "company": "Tesla",
+      "phone": "(383) 913-8608",
+      "email": "henry.wilson@tesla.com",
+      "country": "Denmark",
+      "status": "Active",
+      "createdAt": "2025-05-12"
+    },
+    {
+      "id": "25f063ed-6d7b-4b50-ac39-fb5970ff2e4b",
+      "name": "Emily Flores",
+      "company": "VMware",
+      "phone": "(279) 327-5878",
+      "email": "emily.flores@vmware.com",
+      "country": "USA",
+      "status": "Active",
+      "createdAt": "2024-11-08"
+    },
+    {
+      "id": "ac439dd9-d8b8-42ce-9e03-09d791da0575",
+      "name": "David Hall",
+      "company": "Google",
+      "phone": "(546) 331-4951",
+      "email": "david.hall@google.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2024-03-22"
+    },
+    {
+      "id": "66a6f363-6b9d-4a85-ab20-d31180437be2",
+      "name": "Samuel Green",
+      "company": "Shopify",
+      "phone": "(539) 286-9574",
+      "email": "samuel.green@shopify.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2025-04-03"
+    },
+    {
+      "id": "d7710bd0-d453-48a0-b3fe-7f07e9983b5c",
+      "name": "John Brown",
+      "company": "LG",
+      "phone": "(465) 659-5069",
+      "email": "john.brown@lg.com",
+      "country": "Japan",
+      "status": "Inactive",
+      "createdAt": "2025-06-21"
+    },
+    {
+      "id": "99e908be-2a0e-446c-8fab-076c750835ad",
+      "name": "Olivia Martin",
+      "company": "HP",
+      "phone": "(184) 979-1698",
+      "email": "olivia.martin@hp.com",
+      "country": "Norway",
+      "status": "Active",
+      "createdAt": "2025-08-22"
+    },
+    {
+      "id": "3ecbd2e8-79e6-4fcf-920c-0b63e0cdcc14",
+      "name": "Leo Wright",
+      "company": "Uber",
+      "phone": "(281) 499-4912",
+      "email": "leo.wright@uber.com",
+      "country": "Poland",
+      "status": "Inactive",
+      "createdAt": "2025-06-05"
+    },
+    {
+      "id": "bb87ac0a-2661-4b9c-9a97-9bebd9f3d4bc",
+      "name": "Alexander Lewis",
+      "company": "Uber",
+      "phone": "(858) 174-4983",
+      "email": "alexander.lewis@uber.com",
+      "country": "Singapore",
+      "status": "Active",
+      "createdAt": "2024-09-25"
+    },
+    {
+      "id": "73561212-c0ff-4961-ad38-f8493c953f05",
+      "name": "Henry Smith",
+      "company": "VMware",
+      "phone": "(910) 115-6162",
+      "email": "henry.smith@vmware.com",
+      "country": "New Zealand",
+      "status": "Active",
+      "createdAt": "2025-10-05"
+    },
+    {
+      "id": "124277af-2970-4d63-b041-70f7bdad1272",
+      "name": "Evelyn White",
+      "company": "LinkedIn",
+      "phone": "(233) 702-8349",
+      "email": "evelyn.white@linkedin.com",
+      "country": "India",
+      "status": "Inactive",
+      "createdAt": "2025-08-06"
+    },
+    {
+      "id": "f112011f-6d35-497d-a948-3828500b910f",
+      "name": "Jack Martin",
+      "company": "Lenovo",
+      "phone": "(387) 357-5862",
+      "email": "jack.martin@lenovo.com",
+      "country": "Argentina",
+      "status": "Active",
+      "createdAt": "2024-03-03"
+    },
+    {
+      "id": "00151422-ecb2-43c8-bc12-4c8f9644f527",
+      "name": "David Roberts",
+      "company": "Dell",
+      "phone": "(976) 527-2122",
+      "email": "david.roberts@dell.com",
+      "country": "Germany",
+      "status": "Active",
+      "createdAt": "2025-06-05"
+    },
+    {
+      "id": "0f7e3b08-e42f-4316-82dd-ffdfbafdd7c0",
+      "name": "Addison Brown",
+      "company": "Google",
+      "phone": "(956) 512-6679",
+      "email": "addison.brown@google.com",
+      "country": "Norway",
+      "status": "Active",
+      "createdAt": "2024-10-25"
+    },
+    {
+      "id": "a690ceb7-81df-4a7f-a47f-77d8c35c51fc",
+      "name": "Mason Rodriguez",
+      "company": "Salesforce",
+      "phone": "(728) 993-8981",
+      "email": "mason.rodriguez@salesforce.com",
+      "country": "Poland",
+      "status": "Active",
+      "createdAt": "2024-08-30"
+    },
+    {
+      "id": "f3a72633-469f-4568-9d37-d9b5751f3d71",
+      "name": "Liam Clark",
+      "company": "Slack",
+      "phone": "(513) 269-8136",
+      "email": "liam.clark@slack.com",
+      "country": "Poland",
+      "status": "Active",
+      "createdAt": "2026-01-10"
+    },
+    {
+      "id": "2b2ff374-4c12-485a-b7c3-461f660da8df",
+      "name": "Isabella Davis",
+      "company": "Netflix",
+      "phone": "(856) 303-8003",
+      "email": "isabella.davis@netflix.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2024-01-28"
+    },
+    {
+      "id": "5f5300cf-b83e-492c-93aa-2cac70929b38",
+      "name": "Matthew Martin",
+      "company": "Shopify",
+      "phone": "(911) 859-2787",
+      "email": "matthew.martin@shopify.com",
+      "country": "Denmark",
+      "status": "Inactive",
+      "createdAt": "2025-04-15"
+    },
+    {
+      "id": "ff8fcff0-ec5a-4289-a3a7-6bc9ca46e05f",
+      "name": "Evelyn Gonzalez",
+      "company": "Square",
+      "phone": "(140) 219-1378",
+      "email": "evelyn.gonzalez@square.com",
+      "country": "Spain",
+      "status": "Active",
+      "createdAt": "2025-05-14"
+    },
+    {
+      "id": "1377f124-aaa8-445e-8f20-febaef88f93b",
+      "name": "Olivia White",
+      "company": "LG",
+      "phone": "(748) 928-8205",
+      "email": "olivia.white@lg.com",
+      "country": "Ireland",
+      "status": "Active",
+      "createdAt": "2025-12-13"
+    }
+  ],
+  "stats": {
+    "totalCustomers": {
+      "count": 400,
+      "trend": 16
+    },
+    "members": {
+      "count": 263,
+      "trend": -1
+    },
+    "activeNow": {
+      "count": 185,
+      "avatars": [
+        "https://i.pravatar.cc/150?img=1",
+        "https://i.pravatar.cc/150?img=2",
+        "https://i.pravatar.cc/150?img=3",
+        "https://i.pravatar.cc/150?img=4",
+        "https://i.pravatar.cc/150?img=5"
+      ]
+    }
+  }
+}
