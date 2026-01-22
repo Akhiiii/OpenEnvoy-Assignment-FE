@@ -1,34 +1,11 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render, screen, waitFor } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { Dashboard } from './Dashboard';
-import { MockDataService } from '../../services/MockDataService';
+import * as useCustomerDataModule from '../../hooks/useCustomerData';
 import type { Customer, StatsData } from '../../types';
 
-// Create a mock data service that doesn't simulate delay
-const createTestDataService = (options?: {
-  customers?: Customer[];
-  stats?: StatsData;
-  shouldError?: boolean;
-}) => {
-  const service = new MockDataService(false); // No delay
-  
-  if (options?.shouldError) {
-    vi.spyOn(service, 'getCustomers').mockRejectedValue(new Error('Failed to load data'));
-    vi.spyOn(service, 'getStats').mockRejectedValue(new Error('Failed to load data'));
-  } else if (options?.customers || options?.stats) {
-    if (options.customers) {
-      vi.spyOn(service, 'getCustomers').mockResolvedValue({
-        data: options.customers,
-        total: options.customers.length,
-      });
-    }
-    if (options.stats) {
-      vi.spyOn(service, 'getStats').mockResolvedValue(options.stats);
-    }
-  }
-  
-  return service;
-};
+// Mock the useCustomerData hook
+vi.mock('../../hooks/useCustomerData');
 
 const mockStats: StatsData = {
   totalCustomers: { count: 100, trend: 16 },
@@ -64,116 +41,71 @@ describe('Dashboard', () => {
     vi.clearAllMocks();
   });
 
-  /**
-   * Test Dashboard renders all major sections
-   * Requirements: 1.1, 2.1, 3.1, 4.1
-   */
-  it('renders all major sections: Sidebar, TopBar, StatsStrip, CustomerTable', async () => {
-    const service = createTestDataService({
+  it('renders all major sections: Sidebar, TopBar, StatsStrip, CustomerTable', () => {
+    vi.mocked(useCustomerDataModule.useCustomerData).mockReturnValue({
       customers: mockCustomers,
       stats: mockStats,
+      loading: false,
+      error: null,
     });
 
-    render(<Dashboard dataService={service} />);
+    render(<Dashboard />);
 
-    // Wait for data to load
-    await waitFor(() => {
-      expect(screen.queryByText('Loading...')).not.toBeInTheDocument();
-    });
-
-    // Check Sidebar is rendered
     expect(screen.getByTestId('sidebar')).toBeInTheDocument();
-
-    // Check TopBar is rendered with greeting
     expect(screen.getByTestId('top-bar')).toBeInTheDocument();
     expect(screen.getByTestId('greeting')).toBeInTheDocument();
-
-    // Check StatsStrip is rendered
     expect(screen.getByTestId('stats-strip')).toBeInTheDocument();
-
-    // Check CustomerTable is rendered with header
     expect(screen.getByRole('heading', { name: 'All Customers' })).toBeInTheDocument();
   });
 
-  /**
-   * Test loading state propagates to table
-   * Requirements: 8.1
-   */
-  it('shows loading state while data is being fetched', async () => {
-    // Create a service that will take time to resolve
-    const service = new MockDataService(false);
-    
-    // Create promises that we can control
-    const customersPromise = new Promise<{ data: Customer[]; total: number }>((resolve) => {
-      setTimeout(() => resolve({ data: mockCustomers, total: mockCustomers.length }), 100);
-    });
-    const statsPromise = new Promise<StatsData>((resolve) => {
-      setTimeout(() => resolve(mockStats), 100);
+  it('shows loading state while data is being fetched', () => {
+    vi.mocked(useCustomerDataModule.useCustomerData).mockReturnValue({
+      customers: [],
+      stats: null,
+      loading: true,
+      error: null,
     });
 
-    vi.spyOn(service, 'getCustomers').mockReturnValue(customersPromise);
-    vi.spyOn(service, 'getStats').mockReturnValue(statsPromise);
+    render(<Dashboard />);
 
-    render(<Dashboard dataService={service} />);
-
-    // Initially should show loading
     expect(screen.getByText('Loading...')).toBeInTheDocument();
-
-    // Wait for loading to complete
-    await waitFor(() => {
-      expect(screen.queryByText('Loading...')).not.toBeInTheDocument();
-    });
   });
 
-  /**
-   * Test error state displays error message
-   * Requirements: 8.3
-   */
-  it('displays error message when data fetch fails', async () => {
-    const service = createTestDataService({ shouldError: true });
-
-    render(<Dashboard dataService={service} />);
-
-    // Wait for error to appear
-    await waitFor(() => {
-      expect(screen.getByText('Failed to load data')).toBeInTheDocument();
+  it('displays error message when data fetch fails', () => {
+    vi.mocked(useCustomerDataModule.useCustomerData).mockReturnValue({
+      customers: [],
+      stats: null,
+      loading: false,
+      error: 'Failed to load data',
     });
+
+    render(<Dashboard />);
+
+    expect(screen.getByText('Failed to load data')).toBeInTheDocument();
   });
 
-  /**
-   * Test Dashboard renders with custom user name
-   * Requirements: 2.1
-   */
-  it('displays personalized greeting with user name', async () => {
-    const service = createTestDataService({
+  it('displays personalized greeting with user name', () => {
+    vi.mocked(useCustomerDataModule.useCustomerData).mockReturnValue({
       customers: mockCustomers,
       stats: mockStats,
+      loading: false,
+      error: null,
     });
 
-    render(<Dashboard dataService={service} userName="Alice" />);
-
-    await waitFor(() => {
-      expect(screen.queryByText('Loading...')).not.toBeInTheDocument();
-    });
+    render(<Dashboard userName="Alice" />);
 
     expect(screen.getByText(/Hello Alice/)).toBeInTheDocument();
   });
 
-  /**
-   * Test Sidebar shows Customers as active by default
-   * Requirements: 1.3
-   */
-  it('shows Customers navigation item as active by default', async () => {
-    const service = createTestDataService({
+  it('shows Customers navigation item as active by default', () => {
+    vi.mocked(useCustomerDataModule.useCustomerData).mockReturnValue({
       customers: mockCustomers,
       stats: mockStats,
+      loading: false,
+      error: null,
     });
 
-    render(<Dashboard dataService={service} />);
-
-    await waitFor(() => {
-      expect(screen.queryByText('Loading...')).not.toBeInTheDocument();
-    });
+    render(<Dashboard />);
 
     const customersNavItem = screen.getByTestId('nav-item-customers');
     expect(customersNavItem).toHaveAttribute('aria-current', 'page');

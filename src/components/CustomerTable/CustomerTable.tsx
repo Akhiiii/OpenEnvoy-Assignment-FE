@@ -167,7 +167,7 @@ export const CustomerTable: React.FC<CustomerTableProps> = ({
         data={paginatedCustomers}
         loading={loading}
         error={error}
-        emptyMessage="No customers match your search. Try different keywords."
+        emptyMessage={customers?.length===0?"No data found":"No customers match your search. Try different keywords."}
         className={styles.table}
       />
 

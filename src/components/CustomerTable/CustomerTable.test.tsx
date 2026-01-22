@@ -125,10 +125,10 @@ describe('CustomerTable', () => {
    * Test empty state
    * Requirements: 8.2
    */
-  it('displays empty message when no customers match search', () => {
+  it('displays empty message when no customers exist', () => {
     render(<CustomerTable customers={[]} />);
 
-    expect(screen.getByText('No customers match your search. Try different keywords.')).toBeInTheDocument();
+    expect(screen.getByText('No data found')).toBeInTheDocument();
   });
 
   /**

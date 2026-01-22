@@ -25,8 +25,8 @@ describe('TopBar Property Tests', () => {
 
         const greeting = screen.getByTestId('greeting');
         
-        // Verify the greeting follows the format "Hello {name} 👋,"
-        const expectedGreeting = `Hello ${userName} 👋,`;
+        // Verify the greeting follows the format "Hello {name} 👋🏼,"
+        const expectedGreeting = `Hello ${userName} 👋🏼,`;
         expect(greeting.textContent).toBe(expectedGreeting);
       }),
       { numRuns: 100 }

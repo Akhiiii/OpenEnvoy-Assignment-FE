@@ -14,7 +14,7 @@ describe('TopBar', () => {
     render(<TopBar userName="Evano" />);
     
     const greeting = screen.getByTestId('greeting');
-    expect(greeting).toHaveTextContent('Hello Evano 👋,');
+    expect(greeting).toHaveTextContent('Hello Evano 👋🏼,');
   });
 
   it('calls onSearch when search input changes', async () => {

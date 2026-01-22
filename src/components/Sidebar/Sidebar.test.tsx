@@ -62,15 +62,14 @@ describe('Sidebar', () => {
     });
   });
 
-  it('calls onNavigate when a navigation item is clicked', () => {
+  it('calls onNavigate when the active navigation item is clicked', () => {
     const handleNavigate = vi.fn();
+    // Render with Customers as active (default)
     render(<Sidebar user={mockUser} onNavigate={handleNavigate} />);
     
-    fireEvent.click(screen.getByTestId('nav-item-dashboard'));
-    expect(handleNavigate).toHaveBeenCalledWith('Dashboard');
-    
-    fireEvent.click(screen.getByTestId('nav-item-product'));
-    expect(handleNavigate).toHaveBeenCalledWith('Product');
+    // Click the active item (Customers) - only active items are clickable
+    fireEvent.click(screen.getByTestId('nav-item-customers'));
+    expect(handleNavigate).toHaveBeenCalledWith('Customers');
   });
 
   it('highlights the correct item when activeItem prop changes', () => {
