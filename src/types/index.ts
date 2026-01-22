@@ -38,10 +38,3 @@ export interface TableFilters {
   sortBy: 'newest' | 'name' | 'status';
 }
 
-export interface DataService {
-  getCustomers(filters?: TableFilters, pagination?: PaginationState): Promise<{
-    data: Customer[];
-    total: number;
-  }>;
-  getStats(): Promise<StatsData>;
-}

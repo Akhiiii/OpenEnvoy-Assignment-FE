@@ -78,14 +78,10 @@ interface StatsData {
   activeNow: { count: number; avatars: string[] };
 }
 
-interface DataService {
-  getCustomers(filters?, pagination?): Promise<{ data: Customer[]; total: number }>;
-  getStats(): Promise<StatsData>;
-}
 ```
 
 ### Backend Integration Path
-Replace `fetch('/data/customers.json')` in `useCustomerData` with API calls implementing the `DataService` interface.
+Replace `fetch('/data/customers.json')` in `useCustomerData` with API calls to your backend endpoints
 
 ## Sorting/Filtering/Pagination
 

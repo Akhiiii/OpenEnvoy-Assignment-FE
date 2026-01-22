@@ -20,9 +20,8 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  /* padding: 24px 40px; */
   flex: 1;
-  min-width: 0; /* Prevent content overflow */
+  min-width: 0;
 }
 
 .stats {

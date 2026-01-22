@@ -7,26 +7,6 @@ import { CustomerTable } from '../../components/CustomerTable';
 import { useCustomerData } from '../../hooks/useCustomerData';
 import styles from './Dashboard.module.css';
 
-/**
- * Dashboard Page
- * 
- * INTERVIEW TALKING POINTS:
- * 
- * 1. SEPARATION OF CONCERNS
- *    - Data fetching is handled by useCustomerData hook (not in component)
- *    - Component only handles UI rendering and user interactions
- *    - Makes testing easier - can mock the hook
- * 
- * 2. SIMPLE DATA SOURCE
- *    - Uses JSON file in /public folder (fetched via HTTP)
- *    - Easy to understand and modify
- *    - Can be replaced with real API without changing component
- * 
- * 3. CLEAN ARCHITECTURE
- *    - Props are minimal and well-typed
- *    - Default values provided for optional props
- *    - Each child component has single responsibility
- */
 
 export interface DashboardProps {
   userName?: string;
@@ -58,7 +38,6 @@ export const Dashboard: React.FC<DashboardProps> = ({
   // Handle search from top bar
   const handleGlobalSearch = (query: string) => {
     console.log('Global search:', query);
-    // Could filter customers or call API here
   };
 
   return (

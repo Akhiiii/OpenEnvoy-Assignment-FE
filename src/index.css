@@ -22,20 +22,17 @@ body {
   min-height: 100vh;
 }
 
-/* Ensure proper box sizing */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Remove default button styles */
 button {
   font-family: inherit;
   cursor: pointer;
 }
 
-/* Remove default input styles */
 input,
 select {
   font-family: inherit;
