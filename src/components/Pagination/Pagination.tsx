@@ -16,72 +16,32 @@ export const Pagination: React.FC<PaginationProps> = ({
   maxVisiblePages = 5,
   className,
 }) => {
-  const containerClasses = [styles.pagination, className || ''].filter(Boolean).join(' ');
+  const containerClasses = [styles.pagination, className].filter(Boolean).join(' ');
 
   const getPageNumbers = (): (number | 'ellipsis')[] => {
     if (totalPages <= maxVisiblePages) {
       return Array.from({ length: totalPages }, (_, i) => i + 1);
     }
 
-    const pages: (number | 'ellipsis')[] = [];
+    const pages: (number | 'ellipsis')[] = [1];
     const halfVisible = Math.floor(maxVisiblePages / 2);
 
-    // Always show first page
-    pages.push(1);
-
-    // Calculate start and end of visible range
     let start = Math.max(2, currentPage - halfVisible);
     let end = Math.min(totalPages - 1, currentPage + halfVisible);
 
-    // Adjust if we're near the beginning
     if (currentPage <= halfVisible + 1) {
       end = Math.min(totalPages - 1, maxVisiblePages - 1);
     }
-
-    // Adjust if we're near the end
     if (currentPage >= totalPages - halfVisible) {
       start = Math.max(2, totalPages - maxVisiblePages + 2);
     }
 
-    // Add ellipsis before middle pages if needed
-    if (start > 2) {
-      pages.push('ellipsis');
-    }
-
-    // Add middle pages
-    for (let i = start; i <= end; i++) {
-      pages.push(i);
-    }
-
-    // Add ellipsis after middle pages if needed
-    if (end < totalPages - 1) {
-      pages.push('ellipsis');
-    }
-
-    // Always show last page
-    if (totalPages > 1) {
-      pages.push(totalPages);
-    }
+    if (start > 2) pages.push('ellipsis');
+    for (let i = start; i <= end; i++) pages.push(i);
+    if (end < totalPages - 1) pages.push('ellipsis');
+    if (totalPages > 1) pages.push(totalPages);
 
     return pages;
-  };
-
-  const handlePrevious = () => {
-    if (currentPage > 1) {
-      onPageChange(currentPage - 1);
-    }
-  };
-
-  const handleNext = () => {
-    if (currentPage < totalPages) {
-      onPageChange(currentPage + 1);
-    }
-  };
-
-  const handlePageClick = (page: number) => {
-    if (page !== currentPage) {
-      onPageChange(page);
-    }
   };
 
   const pageNumbers = getPageNumbers();
@@ -92,7 +52,7 @@ export const Pagination: React.FC<PaginationProps> = ({
     <nav className={containerClasses} aria-label="Pagination">
       <button
         className={`${styles.navButton} ${isPrevDisabled ? styles.disabled : ''}`}
-        onClick={handlePrevious}
+        onClick={() => currentPage > 1 && onPageChange(currentPage - 1)}
         disabled={isPrevDisabled}
         aria-label="Previous page"
       >
@@ -100,33 +60,26 @@ export const Pagination: React.FC<PaginationProps> = ({
       </button>
 
       <div className={styles.pageNumbers}>
-        {pageNumbers.map((page, index) => {
-          if (page === 'ellipsis') {
-            return (
-              <span key={`ellipsis-${index}`} className={styles.ellipsis}>
-                ...
-              </span>
-            );
-          }
-
-          const isActive = page === currentPage;
-          return (
+        {pageNumbers.map((page, index) =>
+          page === 'ellipsis' ? (
+            <span key={`ellipsis-${index}`} className={styles.ellipsis}>...</span>
+          ) : (
             <button
               key={page}
-              className={`${styles.pageButton} ${isActive ? styles.active : ''}`}
-              onClick={() => handlePageClick(page)}
+              className={`${styles.pageButton} ${page === currentPage ? styles.active : ''}`}
+              onClick={() => page !== currentPage && onPageChange(page)}
               aria-label={`Page ${page}`}
-              aria-current={isActive ? 'page' : undefined}
+              aria-current={page === currentPage ? 'page' : undefined}
             >
               {page}
             </button>
-          );
-        })}
+          )
+        )}
       </div>
 
       <button
         className={`${styles.navButton} ${isNextDisabled ? styles.disabled : ''}`}
-        onClick={handleNext}
+        onClick={() => currentPage < totalPages && onPageChange(currentPage + 1)}
         disabled={isNextDisabled}
         aria-label="Next page"
       >

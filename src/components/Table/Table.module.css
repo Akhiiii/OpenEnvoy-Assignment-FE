@@ -1,15 +1,13 @@
 .tableContainer {
   width: 100%;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
 }
 
 .table {
   width: 100%;
   border-collapse: collapse;
-  font-family: var(--font-family-primary);
   font-size: var(--font-size-sm);
-  min-width: 700px; /* Ensure table has minimum width for horizontal scroll (Requirements 11.3) */
+  min-width: 700px;
 }
 
 .header {
@@ -50,7 +48,6 @@
   color: var(--color-text-secondary);
 }
 
-/* Loading State */
 .loadingState {
   display: flex;
   flex-direction: column;
@@ -68,12 +65,9 @@
 }
 
 @keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+  to { transform: rotate(360deg); }
 }
 
-/* Error State */
 .errorState {
   display: flex;
   flex-direction: column;
@@ -86,7 +80,6 @@
   font-size: var(--font-size-2xl);
 }
 
-/* Empty State */
 .emptyState {
   display: flex;
   flex-direction: column;

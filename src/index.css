@@ -1,20 +1,5 @@
-/* Import design tokens and reset */
 @import './styles/tokens.css';
 @import './styles/reset.css';
-
-/* Global styles for the Customers Dashboard */
-:root {
-  font-family: var(--font-family-primary);
-  line-height: var(--line-height-normal);
-  font-weight: var(--font-weight-normal);
-  color-scheme: light;
-  color: var(--color-text-primary);
-  background-color: var(--color-bg-secondary);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 body {
   margin: 0;
@@ -22,23 +7,6 @@ body {
   min-height: 100vh;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-button {
-  font-family: inherit;
-  cursor: pointer;
-}
-
-input,
-select {
-  font-family: inherit;
-}
-
-/* Link styles */
 a {
   color: var(--color-primary);
   text-decoration: none;
@@ -48,7 +16,6 @@ a:hover {
   color: var(--color-primary-hover);
 }
 
-/* Focus styles for accessibility */
 :focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;

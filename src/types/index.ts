@@ -1,5 +1,3 @@
-// Core type definitions for Customers Dashboard
-
 export interface Customer {
   id: string;
   name: string;
@@ -12,18 +10,9 @@ export interface Customer {
 }
 
 export interface StatsData {
-  totalCustomers: {
-    count: number;
-    trend: number; // percentage, positive or negative
-  };
-  members: {
-    count: number;
-    trend: number;
-  };
-  activeNow: {
-    count: number;
-    avatars: string[]; // URLs to avatar images
-  };
+  totalCustomers: { count: number; trend: number };
+  members: { count: number; trend: number };
+  activeNow: { count: number; avatars: string[] };
 }
 
 export interface PaginationState {
@@ -37,4 +26,3 @@ export interface TableFilters {
   searchTerm: string;
   sortBy: 'newest' | 'name' | 'status';
 }
-

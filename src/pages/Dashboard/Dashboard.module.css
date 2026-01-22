@@ -1,7 +1,7 @@
 .dashboard {
   display: flex;
   min-height: 100vh;
-  background-color: var(--color-background, #fafbff);
+  background-color: var(--color-bg-secondary);
 }
 
 .main {
@@ -11,9 +11,7 @@
   width: calc(100% - 306px);
   height: 100vh;
   overflow-y: auto;
-  min-width: 0;
   padding: 24px 40px;
-  overflow-x: hidden;
 }
 
 .content {
@@ -21,7 +19,6 @@
   flex-direction: column;
   gap: 24px;
   flex: 1;
-  min-width: 0;
 }
 
 .stats {
@@ -33,52 +30,13 @@
   align-items: center;
   justify-content: center;
   height: 120px;
-  background-color: var(--color-surface, #ffffff);
-  border-radius: 8px;
-  color: var(--color-text-secondary, #757575);
-  font-size: 14px;
+  background-color: var(--color-bg-primary);
+  border-radius: var(--radius-md);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
 }
 
 .table {
   flex: 1;
   min-height: 0;
-  min-width: 0; /* Allow table to shrink */
-}
-
-/* Responsive adjustments for 1024px+ screens */
-@media (max-width: 1400px) {
-  .content {
-    padding: 24px 32px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .content {
-    padding: 20px 24px;
-    gap: 20px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .main {
-    margin-left: 250px;
-    width: calc(100% - 250px);
-  }
-  
-  .content {
-    padding: 16px 20px;
-    gap: 16px;
-  }
-}
-
-@media (max-width: 900px) {
-  .main {
-    margin-left: 220px;
-    width: calc(100% - 220px);
-  }
-  
-  .content {
-    padding: 16px;
-    gap: 16px;
-  }
 }

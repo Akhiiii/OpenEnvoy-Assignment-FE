@@ -117,16 +117,16 @@ Replace `fetch('/data/customers.json')` in `useCustomerData` with API calls to y
 
 ### Design Tokens (`src/styles/tokens.css`)
 - **Colors**: Primary (#5932EA), success (#16C098), error (#DF0404), neutral grays
-- **Spacing**: 4px base scale (xs: 4px → 4xl: 64px)
-- **Typography**: System font stack, sizes 12px-36px
+- **Spacing**: 4px base scale (xs: 4px → 3xl: 48px)
+- **Typography**: System font stack, sizes 12px-24px
 - **Border Radius**: sm (4px) → full (9999px)
-- **Shadows**: sm → xl elevation scale
-- **Transitions**: fast (150ms), base (200ms), slow (300ms)
+- **Shadows**: sm, md
+- **Transitions**: fast (150ms)
 
 ### CSS Architecture
 - CSS Modules for component-scoped styles
 - Global reset (`src/styles/reset.css`)
-- Responsive breakpoints (`src/styles/breakpoints.css`)
+- Desktop-only layout (min-width: 1024px)
 
 ### Icons
 - Custom SVG icons in `src/assets/icons/`

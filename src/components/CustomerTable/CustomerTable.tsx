@@ -16,7 +16,6 @@ export interface CustomerTableProps {
 }
 
 const PAGE_SIZE = 8;
-
 const SORT_OPTIONS = [
   { label: 'Newest', value: 'newest' },
   { label: 'Name', value: 'name' },
@@ -33,21 +32,17 @@ export const CustomerTable: React.FC<CustomerTableProps> = ({
   const [sortBy, setSortBy] = useState<'newest' | 'name' | 'status'>('newest');
   const [currentPage, setCurrentPage] = useState(1);
 
-  // Filter customers based on search term (case-insensitive across name, company, email)
   const filteredCustomers = useMemo(() => {
-    if (!searchTerm.trim()) {
-      return customers;
-    }
+    if (!searchTerm.trim()) return customers;
     const term = searchTerm.toLowerCase();
     return customers.filter(
-      (customer) =>
-        customer.name.toLowerCase().includes(term) ||
-        customer.company.toLowerCase().includes(term) ||
-        customer.email.toLowerCase().includes(term)
+      c =>
+        c.name.toLowerCase().includes(term) ||
+        c.company.toLowerCase().includes(term) ||
+        c.email.toLowerCase().includes(term)
     );
   }, [customers, searchTerm]);
 
-  // Sort filtered customers
   const sortedCustomers = useMemo(() => {
     const sorted = [...filteredCustomers];
     switch (sortBy) {
@@ -62,86 +57,50 @@ export const CustomerTable: React.FC<CustomerTableProps> = ({
     }
   }, [filteredCustomers, sortBy]);
 
-  // Calculate pagination
   const totalItems = sortedCustomers.length;
   const totalPages = Math.ceil(totalItems / PAGE_SIZE);
 
-  // Paginate sorted customers
   const paginatedCustomers = useMemo(() => {
-    const startIndex = (currentPage - 1) * PAGE_SIZE;
-    const endIndex = startIndex + PAGE_SIZE;
-    return sortedCustomers.slice(startIndex, endIndex);
+    const start = (currentPage - 1) * PAGE_SIZE;
+    return sortedCustomers.slice(start, start + PAGE_SIZE);
   }, [sortedCustomers, currentPage]);
 
-  // Calculate footer range
   const startEntry = totalItems === 0 ? 0 : (currentPage - 1) * PAGE_SIZE + 1;
   const endEntry = Math.min(currentPage * PAGE_SIZE, totalItems);
 
-  // Handle search change - reset to page 1
   const handleSearchChange = useCallback((value: string) => {
     setSearchTerm(value);
     setCurrentPage(1);
   }, []);
 
-  // Handle sort change
   const handleSortChange = useCallback((value: string) => {
     setSortBy(value as 'newest' | 'name' | 'status');
   }, []);
 
-  // Handle page change
-  const handlePageChange = useCallback((page: number) => {
-    setCurrentPage(page);
-  }, []);
-
-  // Define table columns
   const columns: ColumnDef<Customer>[] = useMemo(
     () => [
-      {
-        key: 'name',
-        header: 'Customer Name',
-        render: (_, row) => row.name,
-      },
-      {
-        key: 'company',
-        header: 'Company',
-        render: (_, row) => row.company,
-      },
-      {
-        key: 'phone',
-        header: 'Phone Number',
-        render: (_, row) => row.phone,
-      },
-      {
-        key: 'email',
-        header: 'Email',
-        render: (_, row) => row.email,
-      },
-      {
-        key: 'country',
-        header: 'Country',
-        render: (_, row) => row.country,
-      },
-      {
-        key: 'status',
-        header: 'Status',
-        render: (_, row) => <StatusBadge status={row.status} />,
-      },
+      { key: 'name', header: 'Customer Name', render: (_, row) => row.name },
+      { key: 'company', header: 'Company', render: (_, row) => row.company },
+      { key: 'phone', header: 'Phone Number', render: (_, row) => row.phone },
+      { key: 'email', header: 'Email', render: (_, row) => row.email },
+      { key: 'country', header: 'Country', render: (_, row) => row.country },
+      { key: 'status', header: 'Status', render: (_, row) => <StatusBadge status={row.status} /> },
     ],
     []
   );
 
-  const containerClasses = [styles.container, className || ''].filter(Boolean).join(' ');
+  const containerClasses = [styles.container, className].filter(Boolean).join(' ');
+  const emptyMessage = customers?.length === 0
+    ? 'No data found'
+    : 'No customers match your search. Try different keywords.';
 
   return (
     <div className={containerClasses}>
-      {/* Header */}
       <div className={styles.header}>
         <div className={styles.headerLeft}>
           <div>
             <h2 className={styles.title}>All Customers</h2>
-            <a href="#active-members" className={styles.activeLink}>
-              Active Members
-            </a>
+            <a href="#active-members" className={styles.activeLink}>Active Members</a>
           </div>
         </div>
         <div className={styles.headerRight}>
@@ -161,17 +120,15 @@ export const CustomerTable: React.FC<CustomerTableProps> = ({
         </div>
       </div>
 
-      {/* Table */}
       <Table<Customer>
         columns={columns}
         data={paginatedCustomers}
         loading={loading}
         error={error}
-        emptyMessage={customers?.length===0?"No data found":"No customers match your search. Try different keywords."}
+        emptyMessage={emptyMessage}
         className={styles.table}
       />
 
-      {/* Footer */}
       <div className={styles.footer}>
         <span className={styles.footerText} data-testid="pagination-footer">
           Showing data {startEntry} to {endEntry} of {totalItems} entries
@@ -180,7 +137,7 @@ export const CustomerTable: React.FC<CustomerTableProps> = ({
           <Pagination
             currentPage={currentPage}
             totalPages={totalPages}
-            onPageChange={handlePageChange}
+            onPageChange={setCurrentPage}
             className={styles.pagination}
           />
         )}

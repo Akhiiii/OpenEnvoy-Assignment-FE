@@ -1,7 +1,5 @@
 .strip {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
   align-items: stretch;
   background-color: var(--color-bg-primary);
   border-radius: var(--radius-lg);
@@ -11,105 +9,61 @@
 
 .statItem {
   display: flex;
-  /* align-items: flex-start; */
   gap: var(--spacing-md);
   flex: 1;
-  min-width: 200px;
   padding: 0 var(--spacing-md);
-}
-
-.iconContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 84px;
-  height: 84px;
-  border-radius: var(--radius-full);
-  background-color: var(--color-primary-light);
-  flex-shrink: 0;
-}
-
-.iconContainer svg {
-  width: 32px;
-  height: 32px;
-  color: var(--color-primary);
 }
 
 .content {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-xs);
-  flex: 1;
 }
 
 .title {
-  font-family: var(--font-family-primary);
   font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-normal);
   color: var(--color-text-secondary);
-  line-height: var(--line-height-normal);
 }
 
 .valueRow {
   display: flex;
   align-items: center;
   gap: var(--spacing-sm);
-  flex-wrap: wrap;
 }
 
 .value {
-  font-family: var(--font-family-primary);
   font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-bold);
   color: var(--color-text-primary);
-  line-height: var(--line-height-tight);
 }
 
 .trend {
   display: flex;
   align-items: center;
-  flex-direction: row;
-  text-align: center;
   gap: var(--spacing-xs);
-  font-family: var(--font-family-primary);
-  /* font-size: var(--font-size-xs); */
-  /* font-weight: var(--font-weight-medium); */
-}
-
-.trend svg {
-  display: block;
-  flex-shrink: 0;
 }
 
 .trendUp {
   color: var(--color-success);
-  font-family: var(--font-family-primary);
   font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-bold)
-}
-
-.monthTxt{
-  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
 }
 
 .trendDown {
   color: var(--color-error);
-    font-family: var(--font-family-primary);
   font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-bold)
+  font-weight: var(--font-weight-bold);
 }
 
-.trendArrow {
-  font-size: var(--font-size-sm);
+.monthTxt {
+  font-size: var(--font-size-xs);
 }
 
 .divider {
   width: 1px;
-  background-color: var(--color-border, #e5e7eb);
+  background-color: var(--color-border-light);
   align-self: stretch;
-  margin: var(--spacing-sm, 8px) 0;
-  flex: 0 0 1px;
-  min-width: 1px;
+  margin: var(--spacing-sm) 0;
 }
 
 .avatars {
@@ -129,27 +83,4 @@
 
 .avatar:first-child {
   margin-left: 0;
-}
-
-/* Responsive: allow items to wrap on smaller screens */
-@media (max-width: 1200px) {
-  .strip {
-    gap: var(--spacing-md);
-  }
-}
-
-@media (max-width: 900px) {
-  .statItem {
-    flex: 1 1 calc(50% - var(--spacing-md));
-  }
-  
-  .divider {
-    display: none;
-  }
-}
-
-@media (max-width: 600px) {
-  .statItem {
-    flex: 1 1 100%;
-  }
 }
